@@ -1,0 +1,441 @@
+@prefix chub: <http://www.copyrighthub.org/2014/chub#> .
+@prefix hk: <http://www.copyrighthub.org/2014/hk#> .
+@prefix lcc: <http://www.rightscom.com/2011/lcc#> .
+@prefix lem: <http://www.rightscom.com/2011/lem#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hk:ASSIGN1_LINK1 lem:hasEntity1 hk:ASSIGN1 ;
+    lem:hasEntity2 hk:PARTY8 ;
+    lem:hasEntity2Role lcc:Assigner ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+hk:ASSIGN1_LINK2 lem:hasEntity1 hk:ASSIGN1 ;
+    lem:hasEntity2 hk:PARTY7 ;
+    lem:hasEntity2Role lcc:Assignee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+hk:ASSIGN1_LINK3 lem:hasEntity1 hk:ASSIGN1 ;
+    lem:hasEntity2 hk:RIGHT1 ;
+    lem:hasEntity2Role lcc:PermittedRight ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Right .
+
+hk:CSET1_LINK1 lem:hasEntity1 hk:CSET1 ;
+    lem:hasEntity1Role chub:Set ;
+    lem:hasEntity2 hk:PARTY1 ;
+    lem:hasEntity2Role chub:Provider ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Creation_Party .
+
+hk:CSET1_LINK2 lem:hasEntity1 hk:CSET1 ;
+    lem:hasEntity1Role chub:Set ;
+    lem:hasEntity2 hk:PARTY5 ;
+    lem:hasEntity2Role chub:Providee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Creation_Party .
+
+hk:CSET1_LINK3 lem:hasEntity1 hk:CSET1 ;
+    lem:hasEntity1Role chub:Set ;
+    lem:hasEntity2 hk:CREATION1 ;
+    lem:hasEntity2Role chub:Member ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Creation_Creation .
+
+hk:CSET2_D1 chub:ReferenceID "CSET2_D1" ;
+    lem:hasDescriptorSubType chub:Description ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Set of Creations representing the Repertoire of RightSource 2 provided to Mary Evans Picture Library." ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:CSET3_D1 chub:ReferenceID "CSET3_D1" ;
+    lem:hasDescriptorSubType chub:Description ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Set of Creations representing the Repertoire of RightSource 3 provided to Capture Ltd." ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:CSET5_LINK1 lem:hasEntity1 hk:CSET5 ;
+    lem:hasEntity1Role chub:Set ;
+    lem:hasEntity2 hk:CREATION1 ;
+    lem:hasEntity2Role chub:Member ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Creation_Creation .
+
+hk:PARTY3_D1 chub:ReferenceID "PARTY3_D1" ;
+    lem:hasDescriptorSubType lcc:Name ;
+    lem:hasDescriptorType lcc:Name ;
+    lem:hasDescriptorValue "Hub Alpha Dummy RightSource 3" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY3_D2 chub:ReferenceID "PARTY3_D2" ;
+    lem:hasDescriptorSubType chub:CaptureSourceID ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "RightSource3" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PAY1_LINK1 lem:hasEntity1 hk:PAY1 ;
+    lem:hasEntity2 hk:PARTY7 ;
+    lem:hasEntity2Role chub:Payer ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Context_Party .
+
+hk:PAY1_LINK2 lem:hasEntity1 hk:PAY1 ;
+    lem:hasEntity2 hk:PARTY8 ;
+    lem:hasEntity2Role chub:Payee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Context_Party .
+
+hk:RIGHT1_LINK1 lem:hasEntity1 hk:RIGHT1 ;
+    lem:hasEntity2 hk:PARTY8 ;
+    lem:hasEntity2Role chub:Licensor ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+hk:RIGHT1_LINK2 lem:hasEntity1 hk:RIGHT1 ;
+    lem:hasEntity1Role chub:AnyOrAllOf ;
+    lem:hasEntity2 hk:CSET5 ;
+    lem:hasEntity2Role lcc:ControlledCreation ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Creation .
+
+hk:RIGHT2_LINK1 lem:hasEntity1 hk:RIGHT2 ;
+    lem:hasEntity2 hk:PARTY7 ;
+    lem:hasEntity2Role chub:User ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+hk:RIGHT2_LINK2 lem:hasEntity1 hk:RIGHT2 ;
+    lem:hasEntity1Role chub:AnyOneOf ;
+    lem:hasEntity2 hk:CSET5 ;
+    lem:hasEntity2Role lcc:ControlledCreation ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Creation .
+
+hk:RIGHT2_LINK3 lem:hasEntity1 hk:RIGHT2 ;
+    lem:hasEntity2 hk:PAY1 ;
+    lem:hasEntity2Role lcc:PreCondition ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Context .
+
+hk:ASSIGN1_C07 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:ASSIGN1_C08 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:RightsAssignment ;
+    lem:hasEntityType lem:Category .
+
+hk:ASSIGN1_C09 lem:hasCategoryType lcc:RightsAssignmentType ;
+    lem:hasCategoryValue lcc:RightsAgreement ;
+    lem:hasEntityType lem:Category .
+
+hk:ASSIGN1_C10 lem:hasCategoryType lcc:RightsAssignmentStatus ;
+    lem:hasCategoryValue lcc:RightsOffer ;
+    lem:hasEntityType lem:Category .
+
+hk:ASSIGN1_C15 lem:hasCategoryType chub:RightsAgreementType ;
+    lem:hasCategoryValue chub:License ;
+    lem:hasEntityType lem:Category .
+
+hk:ASSIGN1_D1 chub:ReferenceID "ASSIGN1_D1" ;
+    lem:hasDescriptorSubType chub:ImageCoOfferID ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "ImageCoOffer1" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:ASSIGN1_T1 chub:ReferenceID "ASSIGN1_T1" ;
+    lem:TimeForm lcc:Timepoint ;
+    lem:hasEntityType lem:Time ;
+    lem:hasTimeType lcc:TimeOfAssignment ;
+    lem:hasTimepointProximity lcc:Exactly ;
+    lem:hasTimepointValue "ASSIGNMENTSTARTDATEVALUE" .
+
+hk:CREATION1_C27 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:CREATION1_C28 lem:hasCategoryType lcc:hasCreationForm ;
+    lem:hasCategoryValue lcc:Work ;
+    lem:hasEntityType lem:Category .
+
+hk:CREATION1_C29 lem:hasCategoryType chub:VisualWorkType ;
+    lem:hasCategoryValue chub:Photograph ;
+    lem:hasEntityType lem:Category .
+
+hk:CREATION1_D1 chub:ReferenceID "CREATION1_D1" ;
+    lem:hasDescriptorSubType chub:MaryEvansPictureID ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "100123" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:CREATION1_D2 chub:ReferenceID "CREATION1_D2" ;
+    lem:hasDescriptorSubType chub:BriefDescription ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "Sunset over a Caribbean beach" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:CSET1_C63 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET1_C64 lem:hasCategoryType lcc:hasCreationForm ;
+    lem:hasCategoryValue lcc:Work ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET1_C68 lem:hasCategoryType chub:CreationType ;
+    lem:hasCategoryValue chub:Set ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET1_D1 chub:ReferenceID "CSET1_D1" ;
+    lem:hasDescriptorSubType chub:Description ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Set of Creations representing the Repertoire of RightSource 1 provided to Mary Evans Picture Library" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:CSET5_C07 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET5_C08 lem:hasCategoryType lcc:hasCreationForm ;
+    lem:hasCategoryValue lcc:Work ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET5_C13 lem:hasCategoryType chub:CreationType ;
+    lem:hasCategoryValue chub:Set ;
+    lem:hasEntityType lem:Category .
+
+hk:CSET5_D1 chub:ReferenceID "CSET5_D1" ;
+    lem:hasDescriptorSubType chub:Description ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Set of Creations representing the Repertoire of ImageCo available for Licensing." ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY1 chub:ReferenceID "PARTY1" ;
+    lem:hasCategory hk:PARTY1_C20,
+        hk:PARTY1_C21 ;
+    lem:hasDescriptor hk:PARTY1_D1,
+        hk:PARTY1_D2 ;
+    lem:hasEntityType lcc:Party .
+
+hk:PARTY1_C20 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY1_C21 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue chub:Unknown ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY1_D1 chub:ReferenceID "PARTY1_D1" ;
+    lem:hasDescriptorSubType lcc:Name ;
+    lem:hasDescriptorType lcc:Name ;
+    lem:hasDescriptorValue "Hub Alpha Dummy RightSource 1" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY1_D2 chub:ReferenceID "PARTY1_D2" ;
+    lem:hasDescriptorSubType chub:MaryEvansSourceID ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "RightSource1" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY5 chub:ReferenceID "PARTY5" ;
+    lem:hasCategory hk:PARTY5_C52,
+        hk:PARTY5_C53 ;
+    lem:hasDescriptor hk:PARTY5_D1 ;
+    lem:hasEntityType lcc:Party .
+
+hk:PARTY5_C52 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY5_C53 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue lcc:Organization ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY5_D1 chub:ReferenceID "PARTY5_D1" ;
+    lem:hasDescriptorSubType lcc:Name ;
+    lem:hasDescriptorType lcc:Name ;
+    lem:hasDescriptorValue "Mary Evans Picture Library" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY7_C66 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:True ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY7_C67 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue chub:Unknown ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY7_D1 chub:ReferenceID "PARTY7_D1" ;
+    lem:hasDescriptorSubType lcc:Name ;
+    lem:hasDescriptorType lcc:Name ;
+    lem:hasDescriptorValue "Any Party" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY8_C73 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY8_C74 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue lcc:Organization ;
+    lem:hasEntityType lem:Category .
+
+hk:PARTY8_D1 chub:ReferenceID "PARTY8_D1" ;
+    lem:hasDescriptorSubType lcc:Name ;
+    lem:hasDescriptorType lcc:Name ;
+    lem:hasDescriptorValue "ImageCo" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PARTY8_D2 chub:ReferenceID "PARTY8_D2" ;
+    lem:hasDescriptorSubType chub:ISNI ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "0000-1234-5678-9000" ;
+    lem:hasEntityType lem:Descriptor .
+
+hk:PAY1_C21 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:PAY1_C22 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue chub:Pay ;
+    lem:hasEntityType lem:Category .
+
+hk:PAY1_Q1 chub:ReferenceID "PAY1_Q1" ;
+    lem:QuantityForm lcc:SingleQuantity ;
+    lem:hasEntityType lem:Quantity ;
+    lem:hasQuantityType chub:Amount ;
+    lem:hasSingleQuantityProximity lcc:Exactly ;
+    lem:hasSingleQuantityValue "10" ;
+    lem:hasUnitOfMeasure chub:UkPound .
+
+hk:RIGHT1_C82 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT1_C83 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT1_C84 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue chub:AllRights ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT1_C85 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue chub:World ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT1_C86 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT1_T1 chub:ReferenceID "RIGHT1_T1" ;
+    lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Before ;
+    lem:hasPeriodEndValue "9999-12-31" ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "2014-08-10" ;
+    lem:hasTimeType lcc:ValidPeriod .
+
+hk:RIGHT2_C94 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT2_C95 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT2_C96 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue chub:AllRights ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT2_C97 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue chub:World ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT2_C98 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+hk:RIGHT2_T2 chub:ReferenceID "RIGHT2_T2" ;
+    lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Before ;
+    lem:hasPeriodEndValue "9999-12-31" ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "ASSIGNMENTSTARTDATEVALUE" ;
+    lem:hasTimeType lcc:ValidPeriod .
+
+hk:CREATION1 chub:ReferenceID "CREATION1" ;
+    lem:hasCategory hk:CREATION1_C27,
+        hk:CREATION1_C28,
+        hk:CREATION1_C29 ;
+    lem:hasDescriptor hk:CREATION1_D1,
+        hk:CREATION1_D2 ;
+    lem:hasEntityType lcc:Creation .
+
+hk:ASSIGN1 chub:ReferenceID "ASSIGN1" ;
+    lem:hasCategory hk:ASSIGN1_C07,
+        hk:ASSIGN1_C08,
+        hk:ASSIGN1_C09,
+        hk:ASSIGN1_C10,
+        hk:ASSIGN1_C15 ;
+    lem:hasDescriptor hk:ASSIGN1_D1 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime hk:ASSIGN1_T1 .
+
+hk:CSET1 chub:ReferenceID "CSET1" ;
+    lem:hasCategory hk:CSET1_C63,
+        hk:CSET1_C64,
+        hk:CSET1_C68 ;
+    lem:hasDescriptor hk:CSET1_D1 ;
+    lem:hasEntityType lcc:Creation .
+
+hk:CSET5 chub:ReferenceID "CSET5" ;
+    lem:hasCategory hk:CSET5_C07,
+        hk:CSET5_C08,
+        hk:CSET5_C13 ;
+    lem:hasDescriptor hk:CSET5_D1 ;
+    lem:hasEntityType lcc:Creation .
+
+hk:PARTY7 chub:ReferenceID "PARTY7" ;
+    lem:hasCategory hk:PARTY7_C66,
+        hk:PARTY7_C67 ;
+    lem:hasDescriptor hk:PARTY7_D1 ;
+    lem:hasEntityType lcc:Party .
+
+hk:PARTY8 chub:ReferenceID "PARTY8" ;
+    lem:hasCategory hk:PARTY8_C73,
+        hk:PARTY8_C74 ;
+    lem:hasDescriptor hk:PARTY8_D1,
+        hk:PARTY8_D2 ;
+    lem:hasEntityType lcc:Party .
+
+hk:PAY1 chub:ReferenceID "PAY1" ;
+    lem:hasCategory hk:PAY1_C21,
+        hk:PAY1_C22 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasQuantity hk:PAY1_Q1 .
+
+hk:RIGHT1 chub:ReferenceID "RIGHT1" ;
+    lem:hasCategory hk:RIGHT1_C82,
+        hk:RIGHT1_C83,
+        hk:RIGHT1_C84,
+        hk:RIGHT1_C85,
+        hk:RIGHT1_C86 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime hk:RIGHT1_T1 .
+
+hk:RIGHT2 chub:ReferenceID "RIGHT2" ;
+    lem:hasCategory hk:RIGHT2_C94,
+        hk:RIGHT2_C95,
+        hk:RIGHT2_C96,
+        hk:RIGHT2_C97,
+        hk:RIGHT2_C98 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime hk:RIGHT2_T2 .
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<title>LCC Triple Visualisation</title>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/static/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="box" id="toolbox">
+  <input type="file" id="hidden-file-upload">
+  <i id="upload" class="fa fa-cloud-upload fa-2x"></i>
+  <i id="refresh" class="fa fa-refresh fa-2x"></i>
+  <i id="transform" class="fa fa-compress fa-2x"></i>
+  <i id="delete" class="fa fa-trash-o fa-2x"></i>
+</div>
+<div class="box" id="samplebox">
+  <label>Try these sample triples</label>
+  <a href="/static/sampledata/sample2.ttl" download="sample2.ttl"><i class="fa fa-file-text-o fa-2x"></i></a>
+  <a href="/static/sampledata/sample3.ttl" download="sample3.ttl"><i class="fa fa-file-text-o fa-2x"></i></a>
+  <a href="/static/sampledata/sample4.ttl" download="sample4.ttl"><i class="fa fa-file-text-o fa-2x"></i></a>
+  <a href="/static/sampledata/sample1.ttl" download="sample1.ttl"><i class="fa fa-file-text-o fa-2x"></i></a>
+</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

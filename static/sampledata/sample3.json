@@ -1,0 +1,450 @@
+{
+  "directed": false,
+  "graph": [],
+  "links": [
+    {
+      "source": 0,
+      "target": 12
+    },
+    {
+      "source": 1,
+      "target": 12
+    },
+    {
+      "source": 2,
+      "target": 8
+    },
+    {
+      "source": 3,
+      "target": 8
+    },
+    {
+      "source": 4,
+      "target": 11
+    },
+    {
+      "source": 4,
+      "target": 28
+    },
+    {
+      "source": 4,
+      "target": 26
+    },
+    {
+      "source": 4,
+      "target": 10
+    },
+    {
+      "source": 5,
+      "target": 23
+    },
+    {
+      "source": 6,
+      "target": 23
+    },
+    {
+      "source": 7,
+      "target": 35
+    },
+    {
+      "source": 8,
+      "target": 27
+    },
+    {
+      "source": 8,
+      "target": 41
+    },
+    {
+      "source": 9,
+      "target": 29
+    },
+    {
+      "source": 9,
+      "target": 30
+    },
+    {
+      "source": 9,
+      "target": 31
+    },
+    {
+      "source": 9,
+      "target": 32
+    },
+    {
+      "source": 9,
+      "target": 33
+    },
+    {
+      "source": 9,
+      "target": 34
+    },
+    {
+      "source": 9,
+      "target": 18
+    },
+    {
+      "source": 9,
+      "target": 11
+    },
+    {
+      "source": 9,
+      "target": 27
+    },
+    {
+      "source": 9,
+      "target": 13
+    },
+    {
+      "source": 12,
+      "target": 43
+    },
+    {
+      "source": 12,
+      "target": 14
+    },
+    {
+      "source": 13,
+      "target": 35
+    },
+    {
+      "source": 14,
+      "target": 36
+    },
+    {
+      "source": 15,
+      "target": 36
+    },
+    {
+      "source": 16,
+      "target": 36
+    },
+    {
+      "source": 17,
+      "target": 35
+    },
+    {
+      "source": 18,
+      "target": 36
+    },
+    {
+      "source": 19,
+      "target": 36
+    },
+    {
+      "source": 20,
+      "target": 36
+    },
+    {
+      "source": 21,
+      "target": 35
+    },
+    {
+      "source": 22,
+      "target": 35
+    },
+    {
+      "source": 22,
+      "target": 23
+    },
+    {
+      "source": 23,
+      "target": 25
+    },
+    {
+      "source": 24,
+      "target": 37
+    },
+    {
+      "source": 35,
+      "target": 41
+    },
+    {
+      "source": 35,
+      "target": 46
+    },
+    {
+      "source": 35,
+      "target": 47
+    },
+    {
+      "source": 35,
+      "target": 44
+    },
+    {
+      "source": 36,
+      "target": 38
+    },
+    {
+      "source": 36,
+      "target": 42
+    },
+    {
+      "source": 36,
+      "target": 45
+    },
+    {
+      "source": 36,
+      "target": 40
+    },
+    {
+      "source": 36,
+      "target": 48
+    },
+    {
+      "source": 37,
+      "target": 39
+    },
+    {
+      "source": 37,
+      "target": 42
+    }
+  ],
+  "multigraph": false,
+  "nodes": [
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1460C64",
+      "name": "id_P1460C64"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1460C63",
+      "name": "id_P1460C63"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1019C22",
+      "name": "id_P1019C22"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1019C23",
+      "name": "id_P1019C23"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.rightscom.com/2011/rdi#id_C4060",
+      "name": "id_C4060"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_R439C43",
+      "name": "id_R439C43"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_R439C42",
+      "name": "id_R439C42"
+    },
+    {
+      "group": "Time",
+      "id": "http://www.rightscom.com/2011/rdi#id_T1C2915",
+      "name": "id_T1C2915"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1019",
+      "name": "id_P1019"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901",
+      "name": "id_C2901"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C4060C63",
+      "name": "id_C4060C63"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901R12",
+      "name": "id_C2901R12"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1460",
+      "name": "id_P1460"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901R11",
+      "name": "id_C2901R11"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622R29",
+      "name": "id_C3622R29"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622D35",
+      "name": "id_C3622D35"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622D34",
+      "name": "id_C3622D34"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915C19",
+      "name": "id_C2915C19"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622R31",
+      "name": "id_C3622R31"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622D33",
+      "name": "id_C3622D33"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622D32",
+      "name": "id_C3622D32"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915C18",
+      "name": "id_C2915C18"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915R25",
+      "name": "id_C2915R25"
+    },
+    {
+      "group": "Creation",
+      "id": "http://www.rightscom.com/2011/rdi#id_R439",
+      "name": "id_R439"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P996C00",
+      "name": "id_P996C00"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_R439D45",
+      "name": "id_R439D45"
+    },
+    {
+      "group": "Quantity",
+      "id": "http://www.rightscom.com/2011/rdi#id_C4060Q67",
+      "name": "id_C4060Q67"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901R10",
+      "name": "id_C2901R10"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C4060C64",
+      "name": "id_C4060C64"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901C04",
+      "name": "id_C2901C04"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901C05",
+      "name": "id_C2901C05"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901C06",
+      "name": "id_C2901C06"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901C07",
+      "name": "id_C2901C07"
+    },
+    {
+      "group": "Time",
+      "id": "http://www.rightscom.com/2011/rdi#id_T1C2901",
+      "name": "id_T1C2901"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2901C08",
+      "name": "id_C2901C08"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915",
+      "name": "id_C2915"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622",
+      "name": "id_C3622"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.rightscom.com/2011/rdi#id_P996",
+      "name": "id_P996"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622C28",
+      "name": "id_C3622C28"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_P996C99",
+      "name": "id_P996C99"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622C27",
+      "name": "id_C3622C27"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915R24",
+      "name": "id_C2915R24"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622R30",
+      "name": "id_C3622R30"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.rightscom.com/2011/rdi#id_P1460D67",
+      "name": "id_P1460D67"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915C20",
+      "name": "id_C2915C20"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622C25",
+      "name": "id_C3622C25"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915C22",
+      "name": "id_C2915C22"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C2915C21",
+      "name": "id_C2915C21"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.rightscom.com/2011/rdi#id_C3622C26",
+      "name": "id_C3622C26"
+    }
+  ]
+}

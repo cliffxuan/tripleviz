@@ -1,0 +1,1529 @@
+﻿# --- Sample Data File generated from RDI 150114 v0.288.xlsm ---
+# --- on 14/01/15 at 17:05:10 ---
+@prefix lcc: <http://www.rightscom.com/2011/lcc#> .
+@prefix crf: <http://www.rightscom.com/2011/crf#> .
+@prefix hk: <http://www.copyrighthub.co.uk/2014/hk#> .
+@prefix chub: <http://www.copyrighthub.co.uk/2014/chub#> .
+# --- 24 ---
+hk:CREATION1 chub:ReferenceID "CREATION1".
+hk:CREATION1 lcc:EntityType lcc:Creation.
+hk:CREATION1 lcc:Category hk:CREATION1_C27.
+hk:CREATION1_C27 lcc:EntityType lcc:Category.
+hk:CREATION1_C27 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION1_C27 lcc:CategoryValue lcc:False.
+hk:CREATION1 lcc:Category hk:CREATION1_C28.
+hk:CREATION1_C28 lcc:EntityType lcc:Category.
+hk:CREATION1_C28 lcc:CategoryType lcc:CreationMode.
+hk:CREATION1_C28 lcc:CategoryValue lcc:Work.
+hk:CREATION1 lcc:Category hk:CREATION1_C29.
+hk:CREATION1_C29 lcc:EntityType lcc:Category.
+hk:CREATION1_C29 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION1_C29 lcc:CategoryValue chub:Photograph.
+hk:CREATION1 lcc:Descriptor hk:CREATION1_D1.
+hk:CREATION1 lcc:Descriptor hk:CREATION1_D2.
+# --- 33 ---
+hk:CREATION2 chub:ReferenceID "CREATION2".
+hk:CREATION2 lcc:EntityType lcc:Creation.
+hk:CREATION2 lcc:Category hk:CREATION2_C36.
+hk:CREATION2_C36 lcc:EntityType lcc:Category.
+hk:CREATION2_C36 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION2_C36 lcc:CategoryValue lcc:False.
+hk:CREATION2 lcc:Category hk:CREATION2_C37.
+hk:CREATION2_C37 lcc:EntityType lcc:Category.
+hk:CREATION2_C37 lcc:CategoryType lcc:CreationMode.
+hk:CREATION2_C37 lcc:CategoryValue lcc:Work.
+hk:CREATION2 lcc:Category hk:CREATION2_C38.
+hk:CREATION2_C38 lcc:EntityType lcc:Category.
+hk:CREATION2_C38 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION2_C38 lcc:CategoryValue chub:Photograph.
+hk:CREATION2 lcc:Descriptor hk:CREATION2_D1.
+hk:CREATION2 lcc:Descriptor hk:CREATION2_D2.
+# --- 42 ---
+hk:CREATION3 chub:ReferenceID "CREATION3".
+hk:CREATION3 lcc:EntityType lcc:Creation.
+hk:CREATION3 lcc:Category hk:CREATION3_C45.
+hk:CREATION3_C45 lcc:EntityType lcc:Category.
+hk:CREATION3_C45 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION3_C45 lcc:CategoryValue lcc:False.
+hk:CREATION3 lcc:Category hk:CREATION3_C46.
+hk:CREATION3_C46 lcc:EntityType lcc:Category.
+hk:CREATION3_C46 lcc:CategoryType lcc:CreationMode.
+hk:CREATION3_C46 lcc:CategoryValue lcc:Work.
+hk:CREATION3 lcc:Category hk:CREATION3_C47.
+hk:CREATION3_C47 lcc:EntityType lcc:Category.
+hk:CREATION3_C47 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION3_C47 lcc:CategoryValue chub:Photograph.
+hk:CREATION3 lcc:Descriptor hk:CREATION3_D1.
+hk:CREATION3 lcc:Descriptor hk:CREATION3_D2.
+# --- 51 ---
+hk:CREATION4 chub:ReferenceID "CREATION4".
+hk:CREATION4 lcc:EntityType lcc:Creation.
+hk:CREATION4 lcc:Category hk:CREATION4_C54.
+hk:CREATION4_C54 lcc:EntityType lcc:Category.
+hk:CREATION4_C54 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION4_C54 lcc:CategoryValue lcc:False.
+hk:CREATION4 lcc:Category hk:CREATION4_C55.
+hk:CREATION4_C55 lcc:EntityType lcc:Category.
+hk:CREATION4_C55 lcc:CategoryType lcc:CreationMode.
+hk:CREATION4_C55 lcc:CategoryValue lcc:Work.
+hk:CREATION4 lcc:Category hk:CREATION4_C56.
+hk:CREATION4_C56 lcc:EntityType lcc:Category.
+hk:CREATION4_C56 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION4_C56 lcc:CategoryValue chub:Photograph.
+hk:CREATION4 lcc:Descriptor hk:CREATION4_D1.
+hk:CREATION4 lcc:Descriptor hk:CREATION4_D2.
+# --- 60 ---
+hk:CSET1 chub:ReferenceID "CSET1".
+hk:CSET1 lcc:EntityType lcc:Creation.
+hk:CSET1 lcc:Category hk:CSET1_C63.
+hk:CSET1_C63 lcc:EntityType lcc:Category.
+hk:CSET1_C63 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CSET1_C63 lcc:CategoryValue lcc:False.
+hk:CSET1 lcc:Category hk:CSET1_C64.
+hk:CSET1_C64 lcc:EntityType lcc:Category.
+hk:CSET1_C64 lcc:CategoryType lcc:CreationMode.
+hk:CSET1_C64 lcc:CategoryValue lcc:Work.
+# --- 64 ---
+hk:CSET1_LINK1 lcc:Entity1 hk:CSET1.
+hk:CSET1_LINK1 lcc:Entity1Role chub:Set.
+hk:CSET1_LINK1 lcc:Entity2 hk:PARTY5.
+hk:CSET1_LINK1 lcc:Entity2Role chub:Provider.
+hk:CSET1_LINK1 lcc:EntityType lcc:Link.
+hk:CSET1_LINK1 lcc:LinkType lcc:Creation_Party.
+# --- 65 ---
+hk:CSET1_LINK2 lcc:Entity1 hk:CSET1.
+hk:CSET1_LINK2 lcc:Entity1Role chub:Set.
+hk:CSET1_LINK2 lcc:Entity2 hk:PARTY8.
+hk:CSET1_LINK2 lcc:Entity2Role chub:Providee.
+hk:CSET1_LINK2 lcc:EntityType lcc:Link.
+hk:CSET1_LINK2 lcc:LinkType lcc:Creation_Party.
+# --- 66 ---
+hk:CSET1 lcc:Category hk:CSET1_C67.
+hk:CSET1_C67 lcc:EntityType lcc:Category.
+hk:CSET1_C67 lcc:CategoryType chub:CreationType.
+hk:CSET1_C67 lcc:CategoryValue chub:Set.
+hk:CSET1 lcc:Descriptor hk:CSET1_D1.
+# --- 70 ---
+hk:CSET2 chub:ReferenceID "CSET2".
+hk:CSET2 lcc:EntityType lcc:Creation.
+hk:CSET2 lcc:Category hk:CSET2_C73.
+hk:CSET2_C73 lcc:EntityType lcc:Category.
+hk:CSET2_C73 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CSET2_C73 lcc:CategoryValue lcc:False.
+hk:CSET2 lcc:Category hk:CSET2_C74.
+hk:CSET2_C74 lcc:EntityType lcc:Category.
+hk:CSET2_C74 lcc:CategoryType lcc:CreationMode.
+hk:CSET2_C74 lcc:CategoryValue lcc:Work.
+# --- 74 ---
+hk:CSET2_LINK1 lcc:Entity1 hk:CSET2.
+hk:CSET2_LINK1 lcc:Entity1Role chub:Set.
+hk:CSET2_LINK1 lcc:Entity2 hk:PARTY5.
+hk:CSET2_LINK1 lcc:Entity2Role chub:Provider.
+hk:CSET2_LINK1 lcc:EntityType lcc:Link.
+hk:CSET2_LINK1 lcc:LinkType lcc:Creation_Party.
+# --- 75 ---
+hk:CSET2_LINK2 lcc:Entity1 hk:CSET2.
+hk:CSET2_LINK2 lcc:Entity1Role chub:Set.
+hk:CSET2_LINK2 lcc:Entity2 hk:PARTY8.
+hk:CSET2_LINK2 lcc:Entity2Role chub:Providee.
+hk:CSET2_LINK2 lcc:EntityType lcc:Link.
+hk:CSET2_LINK2 lcc:LinkType lcc:Creation_Party.
+# --- 76 ---
+hk:CSET2 lcc:Category hk:CSET2_C77.
+hk:CSET2_C77 lcc:EntityType lcc:Category.
+hk:CSET2_C77 lcc:CategoryType chub:CreationType.
+hk:CSET2_C77 lcc:CategoryValue chub:Set.
+hk:CSET2 lcc:Descriptor hk:CSET2_D1.
+# --- 80 ---
+hk:CSET3 chub:ReferenceID "CSET3".
+hk:CSET3 lcc:EntityType lcc:Creation.
+hk:CSET3 lcc:Category hk:CSET3_C83.
+hk:CSET3_C83 lcc:EntityType lcc:Category.
+hk:CSET3_C83 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CSET3_C83 lcc:CategoryValue lcc:False.
+hk:CSET3 lcc:Category hk:CSET3_C84.
+hk:CSET3_C84 lcc:EntityType lcc:Category.
+hk:CSET3_C84 lcc:CategoryType lcc:CreationMode.
+hk:CSET3_C84 lcc:CategoryValue lcc:Work.
+# --- 84 ---
+hk:CSET3_LINK1 lcc:Entity1 hk:CSET3.
+hk:CSET3_LINK1 lcc:Entity1Role chub:Set.
+hk:CSET3_LINK1 lcc:Entity2 hk:PARTY5.
+hk:CSET3_LINK1 lcc:Entity2Role chub:Provider.
+hk:CSET3_LINK1 lcc:EntityType lcc:Link.
+hk:CSET3_LINK1 lcc:LinkType lcc:Creation_Party.
+# --- 85 ---
+hk:CSET3_LINK2 lcc:Entity1 hk:CSET3.
+hk:CSET3_LINK2 lcc:Entity1Role chub:Set.
+hk:CSET3_LINK2 lcc:Entity2 hk:PARTY8.
+hk:CSET3_LINK2 lcc:Entity2Role chub:Providee.
+hk:CSET3_LINK2 lcc:EntityType lcc:Link.
+hk:CSET3_LINK2 lcc:LinkType lcc:Creation_Party.
+# --- 86 ---
+hk:CSET3 lcc:Category hk:CSET3_C87.
+hk:CSET3_C87 lcc:EntityType lcc:Category.
+hk:CSET3_C87 lcc:CategoryType chub:CreationType.
+hk:CSET3_C87 lcc:CategoryValue chub:Set.
+hk:CSET3 lcc:Descriptor hk:CSET3_D1.
+# --- 90 ---
+hk:CSET4 chub:ReferenceID "CSET4".
+hk:CSET4 lcc:EntityType lcc:Creation.
+hk:CSET4 lcc:Category hk:CSET4_C93.
+hk:CSET4_C93 lcc:EntityType lcc:Category.
+hk:CSET4_C93 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CSET4_C93 lcc:CategoryValue lcc:False.
+hk:CSET4 lcc:Category hk:CSET4_C94.
+hk:CSET4_C94 lcc:EntityType lcc:Category.
+hk:CSET4_C94 lcc:CategoryType lcc:CreationMode.
+hk:CSET4_C94 lcc:CategoryValue lcc:Work.
+# --- 94 ---
+hk:CSET4_LINK1 lcc:Entity1 hk:CSET4.
+hk:CSET4_LINK1 lcc:Entity1Role chub:Set.
+hk:CSET4_LINK1 lcc:Entity2 hk:PARTY5.
+hk:CSET4_LINK1 lcc:Entity2Role chub:Provider.
+hk:CSET4_LINK1 lcc:EntityType lcc:Link.
+hk:CSET4_LINK1 lcc:LinkType lcc:Creation_Party.
+# --- 95 ---
+hk:CSET4_LINK2 lcc:Entity1 hk:CSET4.
+hk:CSET4_LINK2 lcc:Entity1Role chub:Set.
+hk:CSET4_LINK2 lcc:Entity2 hk:PARTY8.
+hk:CSET4_LINK2 lcc:Entity2Role chub:Providee.
+hk:CSET4_LINK2 lcc:EntityType lcc:Link.
+hk:CSET4_LINK2 lcc:LinkType lcc:Creation_Party.
+# --- 96 ---
+hk:CSET4 lcc:Category hk:CSET4_C97.
+hk:CSET4_C97 lcc:EntityType lcc:Category.
+hk:CSET4_C97 lcc:CategoryType chub:CreationType.
+hk:CSET4_C97 lcc:CategoryValue chub:Set.
+hk:CSET4 lcc:Descriptor hk:CSET4_D1.
+# --- 100 ---
+hk:CSET5 chub:ReferenceID "CSET5".
+hk:CSET5 lcc:EntityType lcc:Creation.
+hk:CSET5 lcc:Category hk:CSET5_C03.
+hk:CSET5_C03 lcc:EntityType lcc:Category.
+hk:CSET5_C03 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CSET5_C03 lcc:CategoryValue lcc:False.
+hk:CSET5 lcc:Category hk:CSET5_C04.
+hk:CSET5_C04 lcc:EntityType lcc:Category.
+hk:CSET5_C04 lcc:CategoryType lcc:CreationMode.
+hk:CSET5_C04 lcc:CategoryValue lcc:Work.
+hk:CSET5 lcc:Category hk:CSET5_C05.
+hk:CSET5_C05 lcc:EntityType lcc:Category.
+hk:CSET5_C05 lcc:CategoryType chub:CreationType.
+hk:CSET5_C05 lcc:CategoryValue chub:Set.
+hk:CSET5 lcc:Descriptor hk:CSET5_D1.
+# --- 108 ---
+hk:CREATION5 chub:ReferenceID "CREATION5".
+hk:CREATION5 lcc:EntityType lcc:Creation.
+hk:CREATION5 lcc:Category hk:CREATION5_C11.
+hk:CREATION5_C11 lcc:EntityType lcc:Category.
+hk:CREATION5_C11 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION5_C11 lcc:CategoryValue lcc:True.
+hk:CREATION5 lcc:Category hk:CREATION5_C12.
+hk:CREATION5_C12 lcc:EntityType lcc:Category.
+hk:CREATION5_C12 lcc:CategoryType lcc:CreationMode.
+hk:CREATION5_C12 lcc:CategoryValue lcc:Work.
+hk:CREATION5 lcc:Category hk:CREATION5_C13.
+hk:CREATION5_C13 lcc:EntityType lcc:Category.
+hk:CREATION5_C13 lcc:CategoryType chub:Purpose.
+hk:CREATION5_C13 lcc:CategoryValue chub:NonCommercial.
+hk:CREATION5 lcc:Category hk:CREATION5_C14.
+hk:CREATION5_C14 lcc:EntityType lcc:Category.
+hk:CREATION5_C14 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION5_C14 lcc:CategoryValue chub:PersonalWebpage.
+hk:CREATION5 lcc:Category hk:CREATION5_C15.
+hk:CREATION5_C15 lcc:EntityType lcc:Category.
+hk:CREATION5_C15 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION5_C15 lcc:CategoryValue chub:PersonalBlog.
+hk:CREATION5 lcc:Descriptor hk:CREATION5_D1.
+hk:CREATION5 lcc:Quantity hk:CREATION5_Q1.
+# --- 119 ---
+hk:CREATION6 chub:ReferenceID "CREATION6".
+hk:CREATION6 lcc:EntityType lcc:Creation.
+hk:CREATION6 lcc:Category hk:CREATION6_C22.
+hk:CREATION6_C22 lcc:EntityType lcc:Category.
+hk:CREATION6_C22 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION6_C22 lcc:CategoryValue lcc:True.
+hk:CREATION6 lcc:Category hk:CREATION6_C23.
+hk:CREATION6_C23 lcc:EntityType lcc:Category.
+hk:CREATION6_C23 lcc:CategoryType lcc:CreationMode.
+hk:CREATION6_C23 lcc:CategoryValue lcc:Work.
+hk:CREATION6 lcc:Category hk:CREATION6_C24.
+hk:CREATION6_C24 lcc:EntityType lcc:Category.
+hk:CREATION6_C24 lcc:CategoryType chub:Purpose.
+hk:CREATION6_C24 lcc:CategoryValue chub:Commercial.
+hk:CREATION6 lcc:Category hk:CREATION6_C25.
+hk:CREATION6_C25 lcc:EntityType lcc:Category.
+hk:CREATION6_C25 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION6_C25 lcc:CategoryValue chub:PersonalWebpage.
+hk:CREATION6 lcc:Category hk:CREATION6_C26.
+hk:CREATION6_C26 lcc:EntityType lcc:Category.
+hk:CREATION6_C26 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION6_C26 lcc:CategoryValue chub:PersonalBlog.
+hk:CREATION6 lcc:Descriptor hk:CREATION6_D1.
+hk:CREATION6 lcc:Quantity hk:CREATION6_Q1.
+# --- 130 ---
+hk:CREATION7 chub:ReferenceID "CREATION7".
+hk:CREATION7 lcc:EntityType lcc:Creation.
+hk:CREATION7 lcc:Category hk:CREATION7_C33.
+hk:CREATION7_C33 lcc:EntityType lcc:Category.
+hk:CREATION7_C33 lcc:CategoryType lcc:IsClassRepresentative.
+hk:CREATION7_C33 lcc:CategoryValue lcc:True.
+hk:CREATION7 lcc:Category hk:CREATION7_C34.
+hk:CREATION7_C34 lcc:EntityType lcc:Category.
+hk:CREATION7_C34 lcc:CategoryType lcc:CreationMode.
+hk:CREATION7_C34 lcc:CategoryValue lcc:Work.
+hk:CREATION7 lcc:Category hk:CREATION7_C35.
+hk:CREATION7_C35 lcc:EntityType lcc:Category.
+hk:CREATION7_C35 lcc:CategoryType chub:Purpose.
+hk:CREATION7_C35 lcc:CategoryValue chub:NonCommercial.
+hk:CREATION7 lcc:Category hk:CREATION7_C36.
+hk:CREATION7_C36 lcc:EntityType lcc:Category.
+hk:CREATION7_C36 lcc:CategoryType chub:VisualWorkType.
+hk:CREATION7_C36 lcc:CategoryValue chub:PersonalSocialMediaAccount.
+hk:CREATION7 lcc:Descriptor hk:CREATION7_D1.
+# --- 140 ---
+hk:PARTY1 chub:ReferenceID "PARTY1".
+hk:PARTY1 lcc:EntityType lcc:Party.
+hk:PARTY1 lcc:Category hk:PARTY1_C43.
+hk:PARTY1_C43 lcc:EntityType lcc:Category.
+hk:PARTY1_C43 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY1_C43 lcc:CategoryValue lcc:False.
+hk:PARTY1 lcc:Category hk:PARTY1_C44.
+hk:PARTY1_C44 lcc:EntityType lcc:Category.
+hk:PARTY1_C44 lcc:CategoryType lcc:PartyType.
+hk:PARTY1_C44 lcc:CategoryValue chub:Unknown.
+hk:PARTY1 lcc:Descriptor hk:PARTY1_D1.
+hk:PARTY1 lcc:Descriptor hk:PARTY1_D2.
+# --- 148 ---
+hk:PARTY2 chub:ReferenceID "PARTY2".
+hk:PARTY2 lcc:EntityType lcc:Party.
+hk:PARTY2 lcc:Category hk:PARTY2_C51.
+hk:PARTY2_C51 lcc:EntityType lcc:Category.
+hk:PARTY2_C51 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY2_C51 lcc:CategoryValue lcc:False.
+hk:PARTY2 lcc:Category hk:PARTY2_C52.
+hk:PARTY2_C52 lcc:EntityType lcc:Category.
+hk:PARTY2_C52 lcc:CategoryType lcc:PartyType.
+hk:PARTY2_C52 lcc:CategoryValue chub:Unknown.
+hk:PARTY2 lcc:Descriptor hk:PARTY2_D1.
+hk:PARTY2 lcc:Descriptor hk:PARTY2_D2.
+# --- 156 ---
+hk:PARTY3 chub:ReferenceID "PARTY3".
+hk:PARTY3 lcc:EntityType lcc:Party.
+hk:PARTY3 lcc:Category hk:PARTY3_C59.
+hk:PARTY3_C59 lcc:EntityType lcc:Category.
+hk:PARTY3_C59 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY3_C59 lcc:CategoryValue lcc:False.
+hk:PARTY3 lcc:Category hk:PARTY3_C60.
+hk:PARTY3_C60 lcc:EntityType lcc:Category.
+hk:PARTY3_C60 lcc:CategoryType lcc:PartyType.
+hk:PARTY3_C60 lcc:CategoryValue chub:Unknown.
+hk:PARTY3 lcc:Descriptor hk:PARTY3_D1.
+hk:PARTY3 lcc:Descriptor hk:PARTY3_D2.
+# --- 164 ---
+hk:PARTY4 chub:ReferenceID "PARTY4".
+hk:PARTY4 lcc:EntityType lcc:Party.
+hk:PARTY4 lcc:Category hk:PARTY4_C67.
+hk:PARTY4_C67 lcc:EntityType lcc:Category.
+hk:PARTY4_C67 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY4_C67 lcc:CategoryValue lcc:False.
+hk:PARTY4 lcc:Category hk:PARTY4_C68.
+hk:PARTY4_C68 lcc:EntityType lcc:Category.
+hk:PARTY4_C68 lcc:CategoryType lcc:PartyType.
+hk:PARTY4_C68 lcc:CategoryValue chub:Unknown.
+hk:PARTY4 lcc:Descriptor hk:PARTY4_D1.
+hk:PARTY4 lcc:Descriptor hk:PARTY4_D2.
+# --- 172 ---
+hk:PARTY5 chub:ReferenceID "PARTY5".
+hk:PARTY5 lcc:EntityType lcc:Party.
+hk:PARTY5 lcc:Category hk:PARTY5_C75.
+hk:PARTY5_C75 lcc:EntityType lcc:Category.
+hk:PARTY5_C75 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY5_C75 lcc:CategoryValue lcc:False.
+hk:PARTY5 lcc:Category hk:PARTY5_C76.
+hk:PARTY5_C76 lcc:EntityType lcc:Category.
+hk:PARTY5_C76 lcc:CategoryType lcc:PartyType.
+hk:PARTY5_C76 lcc:CategoryValue lcc:Organization.
+hk:PARTY5 lcc:Descriptor hk:PARTY5_D1.
+# --- 179 ---
+hk:PARTY6 chub:ReferenceID "PARTY6".
+hk:PARTY6 lcc:EntityType lcc:Party.
+hk:PARTY6 lcc:Category hk:PARTY6_C82.
+hk:PARTY6_C82 lcc:EntityType lcc:Category.
+hk:PARTY6_C82 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY6_C82 lcc:CategoryValue lcc:False.
+hk:PARTY6 lcc:Category hk:PARTY6_C83.
+hk:PARTY6_C83 lcc:EntityType lcc:Category.
+hk:PARTY6_C83 lcc:CategoryType lcc:PartyType.
+hk:PARTY6_C83 lcc:CategoryValue lcc:Organization.
+hk:PARTY6 lcc:Descriptor hk:PARTY6_D1.
+# --- 186 ---
+hk:PARTY7 chub:ReferenceID "PARTY7".
+hk:PARTY7 lcc:EntityType lcc:Party.
+hk:PARTY7 lcc:Category hk:PARTY7_C89.
+hk:PARTY7_C89 lcc:EntityType lcc:Category.
+hk:PARTY7_C89 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY7_C89 lcc:CategoryValue lcc:True.
+hk:PARTY7 lcc:Category hk:PARTY7_C90.
+hk:PARTY7_C90 lcc:EntityType lcc:Category.
+hk:PARTY7_C90 lcc:CategoryType lcc:PartyType.
+hk:PARTY7_C90 lcc:CategoryValue lcc:Individual.
+hk:PARTY7 lcc:Descriptor hk:PARTY7_D1.
+# --- 193 ---
+hk:PARTY8 chub:ReferenceID "PARTY8".
+hk:PARTY8 lcc:EntityType lcc:Party.
+hk:PARTY8 lcc:Category hk:PARTY8_C96.
+hk:PARTY8_C96 lcc:EntityType lcc:Category.
+hk:PARTY8_C96 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY8_C96 lcc:CategoryValue lcc:False.
+hk:PARTY8 lcc:Category hk:PARTY8_C97.
+hk:PARTY8_C97 lcc:EntityType lcc:Category.
+hk:PARTY8_C97 lcc:CategoryType lcc:PartyType.
+hk:PARTY8_C97 lcc:CategoryValue lcc:Organization.
+hk:PARTY8 lcc:Descriptor hk:PARTY8_D1.
+hk:PARTY8 lcc:Descriptor hk:PARTY8_D2.
+# --- 201 ---
+hk:PARTY9 chub:ReferenceID "PARTY9".
+hk:PARTY9 lcc:EntityType lcc:Party.
+hk:PARTY9 lcc:Category hk:PARTY9_C04.
+hk:PARTY9_C04 lcc:EntityType lcc:Category.
+hk:PARTY9_C04 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PARTY9_C04 lcc:CategoryValue lcc:True.
+hk:PARTY9 lcc:Category hk:PARTY9_C05.
+hk:PARTY9_C05 lcc:EntityType lcc:Category.
+hk:PARTY9_C05 lcc:CategoryType lcc:PartyType.
+hk:PARTY9_C05 lcc:CategoryValue chub:Unknown.
+hk:PARTY9 lcc:Descriptor hk:PARTY9_D1.
+# --- 209 ---
+hk:RIGHT5 chub:ReferenceID "RIGHT5".
+hk:RIGHT5 lcc:EntityType lcc:Context.
+hk:RIGHT5 lcc:Category hk:RIGHT5_C12.
+hk:RIGHT5_C12 lcc:EntityType lcc:Category.
+hk:RIGHT5_C12 lcc:CategoryType lcc:IsClassRepresentative.
+hk:RIGHT5_C12 lcc:CategoryValue lcc:False.
+hk:RIGHT5 lcc:Category hk:RIGHT5_C13.
+hk:RIGHT5_C13 lcc:EntityType lcc:Category.
+hk:RIGHT5_C13 lcc:CategoryType lcc:ContextType.
+hk:RIGHT5_C13 lcc:CategoryValue lcc:Right.
+hk:RIGHT5 lcc:Category hk:RIGHT5_C14.
+hk:RIGHT5_C14 lcc:EntityType lcc:Category.
+hk:RIGHT5_C14 lcc:CategoryType lcc:RightType.
+hk:RIGHT5_C14 lcc:CategoryValue chub:AllRights.
+hk:RIGHT5 lcc:Category hk:RIGHT5_C15.
+hk:RIGHT5_C15 lcc:EntityType lcc:Category.
+hk:RIGHT5_C15 lcc:CategoryType lcc:Territory.
+hk:RIGHT5_C15 lcc:CategoryValue chub:World.
+hk:RIGHT5 lcc:Category hk:RIGHT5_C16.
+hk:RIGHT5_C16 lcc:EntityType lcc:Category.
+hk:RIGHT5_C16 lcc:CategoryType lcc:IsExclusive.
+hk:RIGHT5_C16 lcc:CategoryValue lcc:False.
+hk:RIGHT5 lcc:Time hk:RIGHT5_T1.
+# --- 217 ---
+hk:RIGHT5_LINK1 lcc:Entity1 hk:RIGHT5.
+hk:RIGHT5_LINK1 lcc:Entity2 hk:PARTY8.
+hk:RIGHT5_LINK1 lcc:Entity2Role chub:Licensor.
+hk:RIGHT5_LINK1 lcc:EntityType lcc:Link.
+hk:RIGHT5_LINK1 lcc:LinkType lcc:Right_Party.
+# --- 218 ---
+hk:RIGHT5_LINK2 lcc:Entity1 hk:RIGHT5.
+hk:RIGHT5_LINK2 lcc:Entity1Role chub:AnyOrAllOf.
+hk:RIGHT5_LINK2 lcc:Entity2 hk:CSET5.
+hk:RIGHT5_LINK2 lcc:Entity2Role lcc:ControlledCreation.
+hk:RIGHT5_LINK2 lcc:EntityType lcc:Link.
+hk:RIGHT5_LINK2 lcc:LinkType lcc:Right_Creation.
+# --- 219 ---
+# --- 221 ---
+hk:RIGHT1 chub:ReferenceID "RIGHT1".
+hk:RIGHT1 lcc:EntityType lcc:Context.
+hk:RIGHT1 lcc:Category hk:RIGHT1_C24.
+hk:RIGHT1_C24 lcc:EntityType lcc:Category.
+hk:RIGHT1_C24 lcc:CategoryType lcc:IsClassRepresentative.
+hk:RIGHT1_C24 lcc:CategoryValue lcc:False.
+hk:RIGHT1 lcc:Category hk:RIGHT1_C25.
+hk:RIGHT1_C25 lcc:EntityType lcc:Category.
+hk:RIGHT1_C25 lcc:CategoryType lcc:ContextType.
+hk:RIGHT1_C25 lcc:CategoryValue lcc:Right.
+hk:RIGHT1 lcc:Category hk:RIGHT1_C26.
+hk:RIGHT1_C26 lcc:EntityType lcc:Category.
+hk:RIGHT1_C26 lcc:CategoryType lcc:RightType.
+hk:RIGHT1_C26 lcc:CategoryValue chub:IncludeInEditorialContent.
+hk:RIGHT1 lcc:Category hk:RIGHT1_C27.
+hk:RIGHT1_C27 lcc:EntityType lcc:Category.
+hk:RIGHT1_C27 lcc:CategoryType lcc:Territory.
+hk:RIGHT1_C27 lcc:CategoryValue chub:World.
+hk:RIGHT1 lcc:Category hk:RIGHT1_C28.
+hk:RIGHT1_C28 lcc:EntityType lcc:Category.
+hk:RIGHT1_C28 lcc:CategoryType lcc:IsExclusive.
+hk:RIGHT1_C28 lcc:CategoryValue lcc:False.
+hk:RIGHT1 lcc:Quantity hk:RIGHT1_Q1.
+hk:RIGHT1 lcc:Quantity hk:RIGHT1_Q2.
+hk:RIGHT1 lcc:Quantity hk:RIGHT1_Q3.
+hk:RIGHT1 lcc:Time hk:RIGHT1_T2.
+# --- 232 ---
+hk:RIGHT1_LINK1 lcc:Entity1 hk:RIGHT1.
+hk:RIGHT1_LINK1 lcc:Entity2 hk:PARTY7.
+hk:RIGHT1_LINK1 lcc:Entity2Role chub:User.
+hk:RIGHT1_LINK1 lcc:EntityType lcc:Link.
+hk:RIGHT1_LINK1 lcc:LinkType lcc:Right_Party.
+# --- 233 ---
+hk:RIGHT1_LINK2 lcc:Entity1 hk:RIGHT1.
+hk:RIGHT1_LINK2 lcc:Entity1Role chub:AnyOneOf.
+hk:RIGHT1_LINK2 lcc:Entity2 hk:CSET1.
+hk:RIGHT1_LINK2 lcc:Entity2Role lcc:ControlledCreation.
+hk:RIGHT1_LINK2 lcc:EntityType lcc:Link.
+hk:RIGHT1_LINK2 lcc:LinkType lcc:Right_Creation.
+# --- 234 ---
+hk:RIGHT1_LINK3 lcc:Entity1 hk:RIGHT1.
+hk:RIGHT1_LINK3 lcc:Entity2 hk:CREATION5.
+hk:RIGHT1_LINK3 lcc:Entity2Role lcc:HostCreation.
+hk:RIGHT1_LINK3 lcc:EntityType lcc:Link.
+hk:RIGHT1_LINK3 lcc:LinkType lcc:Right_Creation.
+# --- 235 ---
+hk:RIGHT1_LINK4 lcc:Entity1 hk:RIGHT1.
+hk:RIGHT1_LINK4 lcc:Entity2 hk:PAY1.
+hk:RIGHT1_LINK4 lcc:Entity2Role lcc:PreCondition.
+hk:RIGHT1_LINK4 lcc:EntityType lcc:Link.
+hk:RIGHT1_LINK4 lcc:LinkType lcc:Right_Context.
+# --- 236 ---
+hk:RIGHT1_LINK5 lcc:Entity1 hk:RIGHT1.
+hk:RIGHT1_LINK5 lcc:Entity2 hk:ACK1.
+hk:RIGHT1_LINK5 lcc:Entity2Role lcc:PostCondition.
+hk:RIGHT1_LINK5 lcc:EntityType lcc:Link.
+hk:RIGHT1_LINK5 lcc:LinkType lcc:Right_Context.
+# --- 237 ---
+# --- 239 ---
+hk:RIGHT2 chub:ReferenceID "RIGHT2".
+hk:RIGHT2 lcc:EntityType lcc:Context.
+hk:RIGHT2 lcc:Category hk:RIGHT2_C42.
+hk:RIGHT2_C42 lcc:EntityType lcc:Category.
+hk:RIGHT2_C42 lcc:CategoryType lcc:IsClassRepresentative.
+hk:RIGHT2_C42 lcc:CategoryValue lcc:False.
+hk:RIGHT2 lcc:Category hk:RIGHT2_C43.
+hk:RIGHT2_C43 lcc:EntityType lcc:Category.
+hk:RIGHT2_C43 lcc:CategoryType lcc:ContextType.
+hk:RIGHT2_C43 lcc:CategoryValue lcc:Right.
+hk:RIGHT2 lcc:Category hk:RIGHT2_C44.
+hk:RIGHT2_C44 lcc:EntityType lcc:Category.
+hk:RIGHT2_C44 lcc:CategoryType lcc:RightType.
+hk:RIGHT2_C44 lcc:CategoryValue chub:IncludeInEditorialContent.
+hk:RIGHT2 lcc:Category hk:RIGHT2_C45.
+hk:RIGHT2_C45 lcc:EntityType lcc:Category.
+hk:RIGHT2_C45 lcc:CategoryType lcc:Territory.
+hk:RIGHT2_C45 lcc:CategoryValue chub:World.
+hk:RIGHT2 lcc:Category hk:RIGHT2_C46.
+hk:RIGHT2_C46 lcc:EntityType lcc:Category.
+hk:RIGHT2_C46 lcc:CategoryType lcc:IsExclusive.
+hk:RIGHT2_C46 lcc:CategoryValue lcc:False.
+hk:RIGHT2 lcc:Quantity hk:RIGHT2_Q1.
+hk:RIGHT2 lcc:Quantity hk:RIGHT2_Q2.
+hk:RIGHT2 lcc:Quantity hk:RIGHT2_Q3.
+hk:RIGHT2 lcc:Time hk:RIGHT2_T2.
+# --- 250 ---
+hk:RIGHT2_LINK1 lcc:Entity1 hk:RIGHT2.
+hk:RIGHT2_LINK1 lcc:Entity2 hk:PARTY7.
+hk:RIGHT2_LINK1 lcc:Entity2Role chub:User.
+hk:RIGHT2_LINK1 lcc:EntityType lcc:Link.
+hk:RIGHT2_LINK1 lcc:LinkType lcc:Right_Party.
+# --- 251 ---
+hk:RIGHT2_LINK2 lcc:Entity1 hk:RIGHT2.
+hk:RIGHT2_LINK2 lcc:Entity1Role chub:AnyOneOf.
+hk:RIGHT2_LINK2 lcc:Entity2 hk:CSET2.
+hk:RIGHT2_LINK2 lcc:Entity2Role lcc:ControlledCreation.
+hk:RIGHT2_LINK2 lcc:EntityType lcc:Link.
+hk:RIGHT2_LINK2 lcc:LinkType lcc:Right_Creation.
+# --- 252 ---
+hk:RIGHT2_LINK3 lcc:Entity1 hk:RIGHT2.
+hk:RIGHT2_LINK3 lcc:Entity2 hk:CREATION6.
+hk:RIGHT2_LINK3 lcc:Entity2Role lcc:HostCreation.
+hk:RIGHT2_LINK3 lcc:EntityType lcc:Link.
+hk:RIGHT2_LINK3 lcc:LinkType lcc:Right_Creation.
+# --- 253 ---
+hk:RIGHT2_LINK4 lcc:Entity1 hk:RIGHT2.
+hk:RIGHT2_LINK4 lcc:Entity2 hk:PAY2.
+hk:RIGHT2_LINK4 lcc:Entity2Role lcc:PreCondition.
+hk:RIGHT2_LINK4 lcc:EntityType lcc:Link.
+hk:RIGHT2_LINK4 lcc:LinkType lcc:Right_Context.
+# --- 254 ---
+hk:RIGHT2_LINK5 lcc:Entity1 hk:RIGHT2.
+hk:RIGHT2_LINK5 lcc:Entity2 hk:ACK2.
+hk:RIGHT2_LINK5 lcc:Entity2Role lcc:PostCondition.
+hk:RIGHT2_LINK5 lcc:EntityType lcc:Link.
+hk:RIGHT2_LINK5 lcc:LinkType lcc:Right_Context.
+# --- 255 ---
+# --- 257 ---
+hk:RIGHT3 chub:ReferenceID "RIGHT3".
+hk:RIGHT3 lcc:EntityType lcc:Context.
+hk:RIGHT3 lcc:Category hk:RIGHT3_C60.
+hk:RIGHT3_C60 lcc:EntityType lcc:Category.
+hk:RIGHT3_C60 lcc:CategoryType lcc:IsClassRepresentative.
+hk:RIGHT3_C60 lcc:CategoryValue lcc:False.
+hk:RIGHT3 lcc:Category hk:RIGHT3_C61.
+hk:RIGHT3_C61 lcc:EntityType lcc:Category.
+hk:RIGHT3_C61 lcc:CategoryType lcc:ContextType.
+hk:RIGHT3_C61 lcc:CategoryValue lcc:Right.
+hk:RIGHT3 lcc:Category hk:RIGHT3_C62.
+hk:RIGHT3_C62 lcc:EntityType lcc:Category.
+hk:RIGHT3_C62 lcc:CategoryType lcc:RightType.
+hk:RIGHT3_C62 lcc:CategoryValue chub:IncludeInEditorialContent.
+hk:RIGHT3 lcc:Category hk:RIGHT3_C63.
+hk:RIGHT3_C63 lcc:EntityType lcc:Category.
+hk:RIGHT3_C63 lcc:CategoryType lcc:Territory.
+hk:RIGHT3_C63 lcc:CategoryValue chub:World.
+hk:RIGHT3 lcc:Category hk:RIGHT3_C64.
+hk:RIGHT3_C64 lcc:EntityType lcc:Category.
+hk:RIGHT3_C64 lcc:CategoryType lcc:IsExclusive.
+hk:RIGHT3_C64 lcc:CategoryValue lcc:False.
+hk:RIGHT3 lcc:Quantity hk:RIGHT3_Q1.
+hk:RIGHT3 lcc:Quantity hk:RIGHT3_Q2.
+hk:RIGHT3 lcc:Quantity hk:RIGHT3_Q3.
+hk:RIGHT3 lcc:Time hk:RIGHT3_T2.
+# --- 268 ---
+hk:RIGHT3_LINK1 lcc:Entity1 hk:RIGHT3.
+hk:RIGHT3_LINK1 lcc:Entity2 hk:PARTY7.
+hk:RIGHT3_LINK1 lcc:Entity2Role chub:User.
+hk:RIGHT3_LINK1 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK1 lcc:LinkType lcc:Right_Party.
+# --- 269 ---
+hk:RIGHT3_LINK2 lcc:Entity1 hk:RIGHT3.
+hk:RIGHT3_LINK2 lcc:Entity1Role chub:AnyOneOf.
+hk:RIGHT3_LINK2 lcc:Entity2 hk:CSET3.
+hk:RIGHT3_LINK2 lcc:Entity2Role lcc:ControlledCreation.
+hk:RIGHT3_LINK2 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK2 lcc:LinkType lcc:Right_Creation.
+# --- 270 ---
+hk:RIGHT3_LINK3 lcc:Entity1 hk:RIGHT3.
+hk:RIGHT3_LINK3 lcc:Entity2 hk:CREATION7.
+hk:RIGHT3_LINK3 lcc:Entity2Role lcc:HostCreation.
+hk:RIGHT3_LINK3 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK3 lcc:LinkType lcc:Right_Creation.
+# --- 271 ---
+hk:RIGHT3_LINK4 lcc:Entity1 hk:RIGHT3.
+hk:RIGHT3_LINK4 lcc:Entity2 hk:PAY3.
+hk:RIGHT3_LINK4 lcc:Entity2Role lcc:PreCondition.
+hk:RIGHT3_LINK4 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK4 lcc:LinkType lcc:Right_Context.
+# --- 272 ---
+hk:RIGHT3_LINK5 lcc:Entity1 hk:RIGHT3.
+hk:RIGHT3_LINK5 lcc:Entity2 hk:ACK3.
+hk:RIGHT3_LINK5 lcc:Entity2Role lcc:PostCondition.
+hk:RIGHT3_LINK5 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK5 lcc:LinkType lcc:Right_Context.
+# --- 273 ---
+# --- 275 ---
+hk:RIGHT4 chub:ReferenceID "RIGHT4".
+hk:RIGHT4 lcc:EntityType lcc:Context.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C78.
+hk:RIGHT4_C78 lcc:EntityType lcc:Category.
+hk:RIGHT4_C78 lcc:CategoryType lcc:IsClassRepresentative.
+hk:RIGHT4_C78 lcc:CategoryValue lcc:False.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C79.
+hk:RIGHT4_C79 lcc:EntityType lcc:Category.
+hk:RIGHT4_C79 lcc:CategoryType lcc:ContextType.
+hk:RIGHT4_C79 lcc:CategoryValue lcc:Right.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C80.
+hk:RIGHT4_C80 lcc:EntityType lcc:Category.
+hk:RIGHT4_C80 lcc:CategoryType lcc:RightType.
+hk:RIGHT4_C80 lcc:CategoryValue chub:DisplayOnPersonalDigitalDevice.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C81.
+hk:RIGHT4_C81 lcc:EntityType lcc:Category.
+hk:RIGHT4_C81 lcc:CategoryType lcc:ToolType.
+hk:RIGHT4_C81 lcc:CategoryValue chub:MobilePhone.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C82.
+hk:RIGHT4_C82 lcc:EntityType lcc:Category.
+hk:RIGHT4_C82 lcc:CategoryType lcc:ToolType.
+hk:RIGHT4_C82 lcc:CategoryValue chub:PersonalComputer.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C83.
+hk:RIGHT4_C83 lcc:EntityType lcc:Category.
+hk:RIGHT4_C83 lcc:CategoryType lcc:ToolType.
+hk:RIGHT4_C83 lcc:CategoryValue chub:CameraRoll.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C84.
+hk:RIGHT4_C84 lcc:EntityType lcc:Category.
+hk:RIGHT4_C84 lcc:CategoryType lcc:Territory.
+hk:RIGHT4_C84 lcc:CategoryValue chub:World.
+hk:RIGHT4 lcc:Category hk:RIGHT4_C85.
+hk:RIGHT4_C85 lcc:EntityType lcc:Category.
+hk:RIGHT4_C85 lcc:CategoryType lcc:IsExclusive.
+hk:RIGHT4_C85 lcc:CategoryValue lcc:False.
+hk:RIGHT4 lcc:Quantity hk:RIGHT4_Q1.
+hk:RIGHT4 lcc:Quantity hk:RIGHT4_Q2.
+hk:RIGHT4 lcc:Quantity hk:RIGHT4_Q3.
+hk:RIGHT4 lcc:Time hk:RIGHT4_T2.
+# --- 289 ---
+hk:RIGHT4_LINK1 lcc:Entity1 hk:RIGHT4.
+hk:RIGHT4_LINK1 lcc:Entity2 hk:PARTY7.
+hk:RIGHT4_LINK1 lcc:Entity2Role chub:User.
+hk:RIGHT4_LINK1 lcc:EntityType lcc:Link.
+hk:RIGHT4_LINK1 lcc:LinkType lcc:Right_Party.
+# --- 290 ---
+hk:RIGHT4_LINK2 lcc:Entity1 hk:RIGHT4.
+hk:RIGHT4_LINK2 lcc:Entity1Role chub:AnyOneOf.
+hk:RIGHT4_LINK2 lcc:Entity2 hk:CSET4.
+hk:RIGHT4_LINK2 lcc:Entity2Role lcc:ControlledCreation.
+hk:RIGHT4_LINK2 lcc:EntityType lcc:Link.
+hk:RIGHT4_LINK2 lcc:LinkType lcc:Right_Creation.
+# --- 291 ---
+hk:RIGHT3_LINK4 lcc:Entity1 hk:RIGHT4.
+hk:RIGHT3_LINK4 lcc:Entity2 hk:PAY4.
+hk:RIGHT3_LINK4 lcc:Entity2Role lcc:PreCondition.
+hk:RIGHT3_LINK4 lcc:EntityType lcc:Link.
+hk:RIGHT3_LINK4 lcc:LinkType lcc:Right_Context.
+# --- 292 ---
+# --- 294 ---
+hk:ASSIGN1 chub:ReferenceID "ASSIGN1".
+hk:ASSIGN1 lcc:EntityType lcc:Context.
+hk:ASSIGN1 lcc:Category hk:ASSIGN1_C97.
+hk:ASSIGN1_C97 lcc:EntityType lcc:Category.
+hk:ASSIGN1_C97 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ASSIGN1_C97 lcc:CategoryValue lcc:False.
+hk:ASSIGN1 lcc:Category hk:ASSIGN1_C98.
+hk:ASSIGN1_C98 lcc:EntityType lcc:Category.
+hk:ASSIGN1_C98 lcc:CategoryType lcc:ContextType.
+hk:ASSIGN1_C98 lcc:CategoryValue lcc:RightsAssignment.
+hk:ASSIGN1 lcc:Category hk:ASSIGN1_C99.
+hk:ASSIGN1_C99 lcc:EntityType lcc:Category.
+hk:ASSIGN1_C99 lcc:CategoryType lcc:RightsAssignmentType.
+hk:ASSIGN1_C99 lcc:CategoryValue lcc:RightsAgreement.
+hk:ASSIGN1 lcc:Category hk:ASSIGN1_C00.
+hk:ASSIGN1_C00 lcc:EntityType lcc:Category.
+hk:ASSIGN1_C00 lcc:CategoryType lcc:RightsAssignmentStatus.
+hk:ASSIGN1_C00 lcc:CategoryValue lcc:RightsOffer.
+hk:ASSIGN1 lcc:Time hk:ASSIGN1_T1.
+# --- 301 ---
+hk:ASSIGN1_LINK1 lcc:Entity1 hk:ASSIGN1.
+hk:ASSIGN1_LINK1 lcc:Entity2 hk:PARTY8.
+hk:ASSIGN1_LINK1 lcc:Entity2Role lcc:Assigner.
+hk:ASSIGN1_LINK1 lcc:EntityType lcc:Link.
+hk:ASSIGN1_LINK1 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 302 ---
+hk:ASSIGN1_LINK2 lcc:Entity1 hk:ASSIGN1.
+hk:ASSIGN1_LINK2 lcc:Entity2 hk:PARTY7.
+hk:ASSIGN1_LINK2 lcc:Entity2Role lcc:Assignee.
+hk:ASSIGN1_LINK2 lcc:EntityType lcc:Link.
+hk:ASSIGN1_LINK2 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 303 ---
+hk:ASSIGN1_LINK3 lcc:Entity1 hk:ASSIGN1.
+hk:ASSIGN1_LINK3 lcc:Entity2 hk:RIGHT1.
+hk:ASSIGN1_LINK3 lcc:Entity2Role lcc:PermittedRight.
+hk:ASSIGN1_LINK3 lcc:EntityType lcc:Link.
+hk:ASSIGN1_LINK3 lcc:LinkType lcc:RightsAssignment_Right.
+# --- 304 ---
+hk:ASSIGN1 lcc:Category hk:ASSIGN1_C05.
+hk:ASSIGN1_C05 lcc:EntityType lcc:Category.
+hk:ASSIGN1_C05 lcc:CategoryType chub:RightsAgreementType.
+hk:ASSIGN1_C05 lcc:CategoryValue chub:License.
+hk:ASSIGN1 lcc:Descriptor hk:ASSIGN1_D1.
+hk:ASSIGN1 lcc:Descriptor hk:ASSIGN1_D2.
+hk:ASSIGN1 lcc:Descriptor hk:ASSIGN1_D3.
+# --- 310 ---
+hk:ASSIGN2 chub:ReferenceID "ASSIGN2".
+hk:ASSIGN2 lcc:EntityType lcc:Context.
+hk:ASSIGN2 lcc:Category hk:ASSIGN2_C13.
+hk:ASSIGN2_C13 lcc:EntityType lcc:Category.
+hk:ASSIGN2_C13 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ASSIGN2_C13 lcc:CategoryValue lcc:False.
+hk:ASSIGN2 lcc:Category hk:ASSIGN2_C14.
+hk:ASSIGN2_C14 lcc:EntityType lcc:Category.
+hk:ASSIGN2_C14 lcc:CategoryType lcc:ContextType.
+hk:ASSIGN2_C14 lcc:CategoryValue lcc:RightsAssignment.
+hk:ASSIGN2 lcc:Category hk:ASSIGN2_C15.
+hk:ASSIGN2_C15 lcc:EntityType lcc:Category.
+hk:ASSIGN2_C15 lcc:CategoryType lcc:RightsAssignmentType.
+hk:ASSIGN2_C15 lcc:CategoryValue lcc:RightsAgreement.
+hk:ASSIGN2 lcc:Category hk:ASSIGN2_C16.
+hk:ASSIGN2_C16 lcc:EntityType lcc:Category.
+hk:ASSIGN2_C16 lcc:CategoryType lcc:RightsAssignmentStatus.
+hk:ASSIGN2_C16 lcc:CategoryValue lcc:RightsOffer.
+hk:ASSIGN2 lcc:Time hk:ASSIGN2_T1.
+# --- 317 ---
+hk:ASSIGN2_LINK1 lcc:Entity1 hk:ASSIGN2.
+hk:ASSIGN2_LINK1 lcc:Entity2 hk:PARTY8.
+hk:ASSIGN2_LINK1 lcc:Entity2Role lcc:Assigner.
+hk:ASSIGN2_LINK1 lcc:EntityType lcc:Link.
+hk:ASSIGN2_LINK1 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 318 ---
+hk:ASSIGN2_LINK2 lcc:Entity1 hk:ASSIGN2.
+hk:ASSIGN2_LINK2 lcc:Entity2 hk:PARTY7.
+hk:ASSIGN2_LINK2 lcc:Entity2Role lcc:Assignee.
+hk:ASSIGN2_LINK2 lcc:EntityType lcc:Link.
+hk:ASSIGN2_LINK2 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 319 ---
+hk:ASSIGN2_LINK3 lcc:Entity1 hk:ASSIGN2.
+hk:ASSIGN2_LINK3 lcc:Entity2 hk:RIGHT2.
+hk:ASSIGN2_LINK3 lcc:Entity2Role lcc:PermittedRight.
+hk:ASSIGN2_LINK3 lcc:EntityType lcc:Link.
+hk:ASSIGN2_LINK3 lcc:LinkType lcc:RightsAssignment_Right.
+# --- 320 ---
+hk:ASSIGN2 lcc:Category hk:ASSIGN2_C21.
+hk:ASSIGN2_C21 lcc:EntityType lcc:Category.
+hk:ASSIGN2_C21 lcc:CategoryType chub:RightsAgreementType.
+hk:ASSIGN2_C21 lcc:CategoryValue chub:License.
+hk:ASSIGN2 lcc:Descriptor hk:ASSIGN2_D1.
+hk:ASSIGN2 lcc:Descriptor hk:ASSIGN2_D2.
+hk:ASSIGN2 lcc:Descriptor hk:ASSIGN2_D3.
+# --- 326 ---
+hk:ASSIGN3 chub:ReferenceID "ASSIGN3".
+hk:ASSIGN3 lcc:EntityType lcc:Context.
+hk:ASSIGN3 lcc:Category hk:ASSIGN3_C29.
+hk:ASSIGN3_C29 lcc:EntityType lcc:Category.
+hk:ASSIGN3_C29 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ASSIGN3_C29 lcc:CategoryValue lcc:False.
+hk:ASSIGN3 lcc:Category hk:ASSIGN3_C30.
+hk:ASSIGN3_C30 lcc:EntityType lcc:Category.
+hk:ASSIGN3_C30 lcc:CategoryType lcc:ContextType.
+hk:ASSIGN3_C30 lcc:CategoryValue lcc:RightsAssignment.
+hk:ASSIGN3 lcc:Category hk:ASSIGN3_C31.
+hk:ASSIGN3_C31 lcc:EntityType lcc:Category.
+hk:ASSIGN3_C31 lcc:CategoryType lcc:RightsAssignmentType.
+hk:ASSIGN3_C31 lcc:CategoryValue lcc:RightsAgreement.
+hk:ASSIGN3 lcc:Category hk:ASSIGN3_C32.
+hk:ASSIGN3_C32 lcc:EntityType lcc:Category.
+hk:ASSIGN3_C32 lcc:CategoryType lcc:RightsAssignmentStatus.
+hk:ASSIGN3_C32 lcc:CategoryValue lcc:RightsOffer.
+hk:ASSIGN3 lcc:Time hk:ASSIGN3_T1.
+# --- 333 ---
+hk:ASSIGN3_LINK1 lcc:Entity1 hk:ASSIGN3.
+hk:ASSIGN3_LINK1 lcc:Entity2 hk:PARTY8.
+hk:ASSIGN3_LINK1 lcc:Entity2Role lcc:Assigner.
+hk:ASSIGN3_LINK1 lcc:EntityType lcc:Link.
+hk:ASSIGN3_LINK1 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 334 ---
+hk:ASSIGN3_LINK2 lcc:Entity1 hk:ASSIGN3.
+hk:ASSIGN3_LINK2 lcc:Entity2 hk:PARTY7.
+hk:ASSIGN3_LINK2 lcc:Entity2Role lcc:Assignee.
+hk:ASSIGN3_LINK2 lcc:EntityType lcc:Link.
+hk:ASSIGN3_LINK2 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 335 ---
+hk:ASSIGN3_LINK3 lcc:Entity1 hk:ASSIGN3.
+hk:ASSIGN3_LINK3 lcc:Entity2 hk:RIGHT2.
+hk:ASSIGN3_LINK3 lcc:Entity2Role lcc:PermittedRight.
+hk:ASSIGN3_LINK3 lcc:EntityType lcc:Link.
+hk:ASSIGN3_LINK3 lcc:LinkType lcc:RightsAssignment_Right.
+# --- 336 ---
+hk:ASSIGN3 lcc:Category hk:ASSIGN3_C37.
+hk:ASSIGN3_C37 lcc:EntityType lcc:Category.
+hk:ASSIGN3_C37 lcc:CategoryType chub:RightsAgreementType.
+hk:ASSIGN3_C37 lcc:CategoryValue chub:License.
+hk:ASSIGN3 lcc:Descriptor hk:ASSIGN3_D1.
+hk:ASSIGN3 lcc:Descriptor hk:ASSIGN3_D2.
+hk:ASSIGN3 lcc:Descriptor hk:ASSIGN3_D3.
+# --- 342 ---
+hk:ASSIGN4 chub:ReferenceID "ASSIGN4".
+hk:ASSIGN4 lcc:EntityType lcc:Context.
+hk:ASSIGN4 lcc:Category hk:ASSIGN4_C45.
+hk:ASSIGN4_C45 lcc:EntityType lcc:Category.
+hk:ASSIGN4_C45 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ASSIGN4_C45 lcc:CategoryValue lcc:False.
+hk:ASSIGN4 lcc:Category hk:ASSIGN4_C46.
+hk:ASSIGN4_C46 lcc:EntityType lcc:Category.
+hk:ASSIGN4_C46 lcc:CategoryType lcc:ContextType.
+hk:ASSIGN4_C46 lcc:CategoryValue lcc:RightsAssignment.
+hk:ASSIGN4 lcc:Category hk:ASSIGN4_C47.
+hk:ASSIGN4_C47 lcc:EntityType lcc:Category.
+hk:ASSIGN4_C47 lcc:CategoryType lcc:RightsAssignmentType.
+hk:ASSIGN4_C47 lcc:CategoryValue lcc:RightsAgreement.
+hk:ASSIGN4 lcc:Category hk:ASSIGN4_C48.
+hk:ASSIGN4_C48 lcc:EntityType lcc:Category.
+hk:ASSIGN4_C48 lcc:CategoryType lcc:RightsAssignmentStatus.
+hk:ASSIGN4_C48 lcc:CategoryValue lcc:RightsOffer.
+hk:ASSIGN4 lcc:Time hk:ASSIGN4_T1.
+# --- 349 ---
+hk:ASSIGN4_LINK1 lcc:Entity1 hk:ASSIGN4.
+hk:ASSIGN4_LINK1 lcc:Entity2 hk:PARTY8.
+hk:ASSIGN4_LINK1 lcc:Entity2Role lcc:Assigner.
+hk:ASSIGN4_LINK1 lcc:EntityType lcc:Link.
+hk:ASSIGN4_LINK1 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 350 ---
+hk:ASSIGN4_LINK2 lcc:Entity1 hk:ASSIGN4.
+hk:ASSIGN4_LINK2 lcc:Entity2 hk:PARTY7.
+hk:ASSIGN4_LINK2 lcc:Entity2Role lcc:Assignee.
+hk:ASSIGN4_LINK2 lcc:EntityType lcc:Link.
+hk:ASSIGN4_LINK2 lcc:LinkType lcc:RightsAssignment_Party.
+# --- 351 ---
+hk:ASSIGN4_LINK3 lcc:Entity1 hk:ASSIGN4.
+hk:ASSIGN4_LINK3 lcc:Entity2 hk:RIGHT2.
+hk:ASSIGN4_LINK3 lcc:Entity2Role lcc:PermittedRight.
+hk:ASSIGN4_LINK3 lcc:EntityType lcc:Link.
+hk:ASSIGN4_LINK3 lcc:LinkType lcc:RightsAssignment_Right.
+# --- 352 ---
+hk:ASSIGN4 lcc:Category hk:ASSIGN4_C53.
+hk:ASSIGN4_C53 lcc:EntityType lcc:Category.
+hk:ASSIGN4_C53 lcc:CategoryType chub:RightsAgreementType.
+hk:ASSIGN4_C53 lcc:CategoryValue chub:License.
+hk:ASSIGN4 lcc:Descriptor hk:ASSIGN4_D1.
+hk:ASSIGN4 lcc:Descriptor hk:ASSIGN4_D2.
+hk:ASSIGN4 lcc:Descriptor hk:ASSIGN4_D3.
+# --- 358 ---
+hk:PAY1 chub:ReferenceID "PAY1".
+hk:PAY1 lcc:EntityType lcc:Context.
+hk:PAY1 lcc:Category hk:PAY1_C61.
+hk:PAY1_C61 lcc:EntityType lcc:Category.
+hk:PAY1_C61 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PAY1_C61 lcc:CategoryValue lcc:False.
+hk:PAY1 lcc:Category hk:PAY1_C62.
+hk:PAY1_C62 lcc:EntityType lcc:Category.
+hk:PAY1_C62 lcc:CategoryType lcc:ContextType.
+hk:PAY1_C62 lcc:CategoryValue chub:Payment.
+# --- 362 ---
+hk:PAY1_LINK1 lcc:Entity1 hk:PAY1.
+hk:PAY1_LINK1 lcc:Entity2 hk:PARTY7.
+hk:PAY1_LINK1 lcc:Entity2Role chub:Payer.
+hk:PAY1_LINK1 lcc:EntityType lcc:Link.
+hk:PAY1_LINK1 lcc:LinkType lcc:Context_Party.
+# --- 363 ---
+hk:PAY1_LINK2 lcc:Entity1 hk:PAY1.
+hk:PAY1_LINK2 lcc:Entity2 hk:PARTY8.
+hk:PAY1_LINK2 lcc:Entity2Role chub:Payee.
+hk:PAY1_LINK2 lcc:EntityType lcc:Link.
+hk:PAY1_LINK2 lcc:LinkType lcc:Context_Party.
+# --- 364 ---
+hk:PAY1 lcc:Quantity hk:PAY1_Q1.
+# --- 367 ---
+hk:PAY2 chub:ReferenceID "PAY2".
+hk:PAY2 lcc:EntityType lcc:Context.
+hk:PAY2 lcc:Category hk:PAY2_C70.
+hk:PAY2_C70 lcc:EntityType lcc:Category.
+hk:PAY2_C70 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PAY2_C70 lcc:CategoryValue lcc:False.
+hk:PAY2 lcc:Category hk:PAY2_C71.
+hk:PAY2_C71 lcc:EntityType lcc:Category.
+hk:PAY2_C71 lcc:CategoryType lcc:ContextType.
+hk:PAY2_C71 lcc:CategoryValue chub:Payment.
+# --- 371 ---
+hk:PAY2_LINK1 lcc:Entity1 hk:PAY2.
+hk:PAY2_LINK1 lcc:Entity2 hk:PARTY7.
+hk:PAY2_LINK1 lcc:Entity2Role chub:Payer.
+hk:PAY2_LINK1 lcc:EntityType lcc:Link.
+hk:PAY2_LINK1 lcc:LinkType lcc:Context_Party.
+# --- 372 ---
+hk:PAY2_LINK2 lcc:Entity1 hk:PAY2.
+hk:PAY2_LINK2 lcc:Entity2 hk:PARTY8.
+hk:PAY2_LINK2 lcc:Entity2Role chub:Payee.
+hk:PAY2_LINK2 lcc:EntityType lcc:Link.
+hk:PAY2_LINK2 lcc:LinkType lcc:Context_Party.
+# --- 373 ---
+hk:PAY2 lcc:Quantity hk:PAY2_Q1.
+# --- 376 ---
+hk:PAY3 chub:ReferenceID "PAY3".
+hk:PAY3 lcc:EntityType lcc:Context.
+hk:PAY3 lcc:Category hk:PAY3_C79.
+hk:PAY3_C79 lcc:EntityType lcc:Category.
+hk:PAY3_C79 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PAY3_C79 lcc:CategoryValue lcc:False.
+hk:PAY3 lcc:Category hk:PAY3_C80.
+hk:PAY3_C80 lcc:EntityType lcc:Category.
+hk:PAY3_C80 lcc:CategoryType lcc:ContextType.
+hk:PAY3_C80 lcc:CategoryValue chub:Payment.
+# --- 380 ---
+hk:PAY3_LINK1 lcc:Entity1 hk:PAY3.
+hk:PAY3_LINK1 lcc:Entity2 hk:PARTY7.
+hk:PAY3_LINK1 lcc:Entity2Role chub:Payer.
+hk:PAY3_LINK1 lcc:EntityType lcc:Link.
+hk:PAY3_LINK1 lcc:LinkType lcc:Context_Party.
+# --- 381 ---
+hk:PAY3_LINK2 lcc:Entity1 hk:PAY3.
+hk:PAY3_LINK2 lcc:Entity2 hk:PARTY8.
+hk:PAY3_LINK2 lcc:Entity2Role chub:Payee.
+hk:PAY3_LINK2 lcc:EntityType lcc:Link.
+hk:PAY3_LINK2 lcc:LinkType lcc:Context_Party.
+# --- 382 ---
+hk:PAY3 lcc:Quantity hk:PAY3_Q1.
+# --- 385 ---
+hk:PAY4 chub:ReferenceID "PAY4".
+hk:PAY4 lcc:EntityType lcc:Context.
+hk:PAY4 lcc:Category hk:PAY4_C88.
+hk:PAY4_C88 lcc:EntityType lcc:Category.
+hk:PAY4_C88 lcc:CategoryType lcc:IsClassRepresentative.
+hk:PAY4_C88 lcc:CategoryValue lcc:False.
+hk:PAY4 lcc:Category hk:PAY4_C89.
+hk:PAY4_C89 lcc:EntityType lcc:Category.
+hk:PAY4_C89 lcc:CategoryType lcc:ContextType.
+hk:PAY4_C89 lcc:CategoryValue chub:Payment.
+# --- 389 ---
+hk:PAY4_LINK1 lcc:Entity1 hk:PAY4.
+hk:PAY4_LINK1 lcc:Entity2 hk:PARTY7.
+hk:PAY4_LINK1 lcc:Entity2Role chub:Payer.
+hk:PAY4_LINK1 lcc:EntityType lcc:Link.
+hk:PAY4_LINK1 lcc:LinkType lcc:Context_Party.
+# --- 390 ---
+hk:PAY4_LINK2 lcc:Entity1 hk:PAY4.
+hk:PAY4_LINK2 lcc:Entity2 hk:PARTY8.
+hk:PAY4_LINK2 lcc:Entity2Role chub:Payee.
+hk:PAY4_LINK2 lcc:EntityType lcc:Link.
+hk:PAY4_LINK2 lcc:LinkType lcc:Context_Party.
+# --- 391 ---
+hk:PAY4 lcc:Quantity hk:PAY4_Q1.
+# --- 394 ---
+hk:ACK1 chub:ReferenceID "ACK1".
+hk:ACK1 lcc:EntityType lcc:Context.
+hk:ACK1 lcc:Category hk:ACK1_C97.
+hk:ACK1_C97 lcc:EntityType lcc:Category.
+hk:ACK1_C97 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ACK1_C97 lcc:CategoryValue lcc:False.
+hk:ACK1 lcc:Category hk:ACK1_C98.
+hk:ACK1_C98 lcc:EntityType lcc:Category.
+hk:ACK1_C98 lcc:CategoryType lcc:ContextType.
+hk:ACK1_C98 lcc:CategoryValue chub:Acknowledgment.
+# --- 398 ---
+hk:ACK1_LINK1 lcc:Entity1 hk:ACK1.
+hk:ACK1_LINK1 lcc:Entity1Role chub:AnyOneOf.
+hk:ACK1_LINK1 lcc:Entity2 hk:CSET1.
+hk:ACK1_LINK1 lcc:Entity2Role chub:AcknowledgedResource.
+hk:ACK1_LINK1 lcc:EntityType lcc:Link.
+hk:ACK1_LINK1 lcc:LinkType lcc:Context_Creation.
+# --- 399 ---
+hk:ACK1_LINK2 lcc:Entity1 hk:ACK1.
+hk:ACK1_LINK2 lcc:Entity2 hk:CREATION5.
+hk:ACK1_LINK2 lcc:Entity2Role chub:AcknowledgedResourceHost.
+hk:ACK1_LINK2 lcc:EntityType lcc:Link.
+hk:ACK1_LINK2 lcc:LinkType lcc:Context_Creation.
+# --- 400 ---
+hk:ACK1_LINK3 lcc:Entity1 hk:ACK1.
+hk:ACK1_LINK3 lcc:Entity2 hk:PARTY7.
+hk:ACK1_LINK3 lcc:Entity2Role chub:Acknowledger.
+hk:ACK1_LINK3 lcc:EntityType lcc:Link.
+hk:ACK1_LINK3 lcc:LinkType lcc:Context_Party.
+# --- 401 ---
+hk:ACK1 lcc:Descriptor hk:ACK1_D1.
+# --- 404 ---
+hk:ACK2 chub:ReferenceID "ACK2".
+hk:ACK2 lcc:EntityType lcc:Context.
+hk:ACK2 lcc:Category hk:ACK2_C07.
+hk:ACK2_C07 lcc:EntityType lcc:Category.
+hk:ACK2_C07 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ACK2_C07 lcc:CategoryValue lcc:False.
+hk:ACK2 lcc:Category hk:ACK2_C08.
+hk:ACK2_C08 lcc:EntityType lcc:Category.
+hk:ACK2_C08 lcc:CategoryType lcc:ContextType.
+hk:ACK2_C08 lcc:CategoryValue chub:Acknowledgment.
+# --- 408 ---
+hk:ACK2_LINK1 lcc:Entity1 hk:ACK2.
+hk:ACK2_LINK1 lcc:Entity1Role chub:AnyOneOf.
+hk:ACK2_LINK1 lcc:Entity2 hk:CSET2.
+hk:ACK2_LINK1 lcc:Entity2Role chub:AcknowledgedResource.
+hk:ACK2_LINK1 lcc:EntityType lcc:Link.
+hk:ACK2_LINK1 lcc:LinkType lcc:Context_Creation.
+# --- 409 ---
+hk:ACK2_LINK2 lcc:Entity1 hk:ACK2.
+hk:ACK2_LINK2 lcc:Entity2 hk:CREATION6.
+hk:ACK2_LINK2 lcc:Entity2Role chub:AcknowledgedResourceHost.
+hk:ACK2_LINK2 lcc:EntityType lcc:Link.
+hk:ACK2_LINK2 lcc:LinkType lcc:Context_Creation.
+# --- 410 ---
+hk:ACK2_LINK3 lcc:Entity1 hk:ACK2.
+hk:ACK2_LINK3 lcc:Entity2 hk:PARTY7.
+hk:ACK2_LINK3 lcc:Entity2Role chub:Acknowledger.
+hk:ACK2_LINK3 lcc:EntityType lcc:Link.
+hk:ACK2_LINK3 lcc:LinkType lcc:Context_Party.
+# --- 411 ---
+hk:ACK2 lcc:Descriptor hk:ACK2_D1.
+# --- 414 ---
+hk:ACK3 chub:ReferenceID "ACK3".
+hk:ACK3 lcc:EntityType lcc:Context.
+hk:ACK3 lcc:Category hk:ACK3_C17.
+hk:ACK3_C17 lcc:EntityType lcc:Category.
+hk:ACK3_C17 lcc:CategoryType lcc:IsClassRepresentative.
+hk:ACK3_C17 lcc:CategoryValue lcc:False.
+hk:ACK3 lcc:Category hk:ACK3_C18.
+hk:ACK3_C18 lcc:EntityType lcc:Category.
+hk:ACK3_C18 lcc:CategoryType lcc:ContextType.
+hk:ACK3_C18 lcc:CategoryValue chub:Acknowledgment.
+# --- 418 ---
+hk:ACK3_LINK1 lcc:Entity1 hk:ACK3.
+hk:ACK3_LINK1 lcc:Entity1Role chub:AnyOneOf.
+hk:ACK3_LINK1 lcc:Entity2 hk:CSET3.
+hk:ACK3_LINK1 lcc:Entity2Role chub:AcknowledgedResource.
+hk:ACK3_LINK1 lcc:EntityType lcc:Link.
+hk:ACK3_LINK1 lcc:LinkType lcc:Context_Creation.
+# --- 419 ---
+hk:ACK3_LINK2 lcc:Entity1 hk:ACK3.
+hk:ACK3_LINK2 lcc:Entity2 hk:CREATION7.
+hk:ACK3_LINK2 lcc:Entity2Role chub:AcknowledgedResourceHost.
+hk:ACK3_LINK2 lcc:EntityType lcc:Link.
+hk:ACK3_LINK2 lcc:LinkType lcc:Context_Creation.
+# --- 420 ---
+hk:ACK3_LINK3 lcc:Entity1 hk:ACK3.
+hk:ACK3_LINK3 lcc:Entity2 hk:PARTY7.
+hk:ACK3_LINK3 lcc:Entity2Role chub:Acknowledger.
+hk:ACK3_LINK3 lcc:EntityType lcc:Link.
+hk:ACK3_LINK3 lcc:LinkType lcc:Context_Party.
+# --- 421 ---
+hk:ACK3 lcc:Descriptor hk:ACK3_D1.
+# --- 425 ---
+hk:RIGHT5_T1 chub:ReferenceID "RIGHT5_T1".
+hk:RIGHT5_T1 lcc:EntityType lcc:Time.
+hk:RIGHT5_T1 lcc:TimeMode lcc:Period.
+hk:RIGHT5_T1 lcc:TimeType lcc:ValidPeriod.
+hk:RIGHT5_T1 lcc:PeriodStartValue "2014-08-10".
+hk:RIGHT5_T1 lcc:PeriodStartProximity lcc:Exactly.
+hk:RIGHT5_T1 lcc:PeriodEndValue "9999-12-31".
+hk:RIGHT5_T1 lcc:PeriodEndProximity lcc:Before.
+# --- 436 ---
+hk:RIGHT1_T2 chub:ReferenceID "RIGHT1_T2".
+hk:RIGHT1_T2 lcc:EntityType lcc:Time.
+hk:RIGHT1_T2 lcc:TimeMode lcc:Period.
+hk:RIGHT1_T2 lcc:TimeType lcc:ValidPeriod.
+hk:RIGHT1_T2 lcc:PeriodStartValue "ASSIGN1STARTDATEVALUE".
+hk:RIGHT1_T2 lcc:PeriodStartProximity lcc:Exactly.
+hk:RIGHT1_T2 lcc:PeriodEndValue "9999-12-31".
+hk:RIGHT1_T2 lcc:PeriodEndProximity lcc:Before.
+# --- 447 ---
+hk:RIGHT2_T2 chub:ReferenceID "RIGHT2_T2".
+hk:RIGHT2_T2 lcc:EntityType lcc:Time.
+hk:RIGHT2_T2 lcc:TimeMode lcc:Period.
+hk:RIGHT2_T2 lcc:TimeType lcc:ValidPeriod.
+hk:RIGHT2_T2 lcc:PeriodStartValue "ASSIGN2STARTDATEVALUE".
+hk:RIGHT2_T2 lcc:PeriodStartProximity lcc:Exactly.
+hk:RIGHT2_T2 lcc:PeriodEndValue "9999-12-31".
+hk:RIGHT2_T2 lcc:PeriodEndProximity lcc:Before.
+# --- 458 ---
+hk:RIGHT3_T2 chub:ReferenceID "RIGHT3_T2".
+hk:RIGHT3_T2 lcc:EntityType lcc:Time.
+hk:RIGHT3_T2 lcc:TimeMode lcc:Period.
+hk:RIGHT3_T2 lcc:TimeType lcc:ValidPeriod.
+hk:RIGHT3_T2 lcc:PeriodStartValue "ASSIGN3STARTDATEVALUE".
+hk:RIGHT3_T2 lcc:PeriodStartProximity lcc:Exactly.
+hk:RIGHT3_T2 lcc:PeriodEndValue "9999-12-31".
+hk:RIGHT3_T2 lcc:PeriodEndProximity lcc:Before.
+# --- 469 ---
+hk:RIGHT4_T2 chub:ReferenceID "RIGHT4_T2".
+hk:RIGHT4_T2 lcc:EntityType lcc:Time.
+hk:RIGHT4_T2 lcc:TimeMode lcc:Period.
+hk:RIGHT4_T2 lcc:TimeType lcc:ValidPeriod.
+hk:RIGHT4_T2 lcc:PeriodStartValue "ASSIGN4STARTDATEVALUE".
+hk:RIGHT4_T2 lcc:PeriodStartProximity lcc:Exactly.
+hk:RIGHT4_T2 lcc:PeriodEndValue "9999-12-31".
+hk:RIGHT4_T2 lcc:PeriodEndProximity lcc:Before.
+# --- 480 ---
+hk:ASSIGN1_T1 chub:ReferenceID "ASSIGN1_T1".
+hk:ASSIGN1_T1 lcc:EntityType lcc:Time.
+hk:ASSIGN1_T1 lcc:TimeMode lcc:Timepoint.
+hk:ASSIGN1_T1 lcc:TimeType lcc:TimeOfAssignment.
+hk:ASSIGN1_T1 lcc:TimepointValue "ASSIGN1STARTDATEVALUE".
+hk:ASSIGN1_T1 lcc:TimepointProximity lcc:Exactly.
+# --- 489 ---
+hk:ASSIGN2_T1 chub:ReferenceID "ASSIGN2_T1".
+hk:ASSIGN2_T1 lcc:EntityType lcc:Time.
+hk:ASSIGN2_T1 lcc:TimeMode lcc:Timepoint.
+hk:ASSIGN2_T1 lcc:TimeType lcc:TimeOfAssignment.
+hk:ASSIGN2_T1 lcc:TimepointValue "ASSIGN2STARTDATEVALUE".
+hk:ASSIGN2_T1 lcc:TimepointProximity lcc:Exactly.
+# --- 498 ---
+hk:ASSIGN3_T1 chub:ReferenceID "ASSIGN3_T1".
+hk:ASSIGN3_T1 lcc:EntityType lcc:Time.
+hk:ASSIGN3_T1 lcc:TimeMode lcc:Timepoint.
+hk:ASSIGN3_T1 lcc:TimeType lcc:TimeOfAssignment.
+hk:ASSIGN3_T1 lcc:TimepointValue "ASSIGN3STARTDATEVALUE".
+hk:ASSIGN3_T1 lcc:TimepointProximity lcc:Exactly.
+# --- 507 ---
+hk:ASSIGN4_T1 chub:ReferenceID "ASSIGN4_T1".
+hk:ASSIGN4_T1 lcc:EntityType lcc:Time.
+hk:ASSIGN4_T1 lcc:TimeMode lcc:Timepoint.
+hk:ASSIGN4_T1 lcc:TimeType lcc:TimeOfAssignment.
+hk:ASSIGN4_T1 lcc:TimepointValue "ASSIGN4STARTDATEVALUE".
+hk:ASSIGN4_T1 lcc:TimepointProximity lcc:Exactly.
+# --- 517 ---
+hk:PARTY8_D1 chub:ReferenceID "PARTY8_D1".
+hk:PARTY8_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY8_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY8_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY8_D1 lcc:DescriptorValue "ImageCo".
+# --- 525 ---
+hk:PARTY1_D1 chub:ReferenceID "PARTY1_D1".
+hk:PARTY1_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY1_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY1_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY1_D1 lcc:DescriptorValue "Hub Alpha Dummy RightSource 1".
+# --- 533 ---
+hk:PARTY2_D1 chub:ReferenceID "PARTY2_D1".
+hk:PARTY2_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY2_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY2_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY2_D1 lcc:DescriptorValue "Hub Alpha Dummy RightSource 2".
+# --- 541 ---
+hk:PARTY3_D1 chub:ReferenceID "PARTY3_D1".
+hk:PARTY3_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY3_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY3_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY3_D1 lcc:DescriptorValue "Hub Alpha Dummy RightSource 3".
+# --- 549 ---
+hk:PARTY4_D1 chub:ReferenceID "PARTY4_D1".
+hk:PARTY4_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY4_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY4_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY4_D1 lcc:DescriptorValue "Hub Alpha Dummy RightSource 4".
+# --- 557 ---
+hk:PARTY5_D1 chub:ReferenceID "PARTY5_D1".
+hk:PARTY5_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY5_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY5_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY5_D1 lcc:DescriptorValue "Mary Evans Picture Library".
+# --- 573 ---
+hk:PARTY7_D1 chub:ReferenceID "PARTY7_D1".
+hk:PARTY7_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY7_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY7_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY7_D1 lcc:DescriptorValue "Any Individual".
+# --- 581 ---
+hk:PARTY9_D1 chub:ReferenceID "PARTY9_D1".
+hk:PARTY9_D1 lcc:EntityType lcc:Descriptor.
+hk:PARTY9_D1 lcc:DescriptorType lcc:Name.
+hk:PARTY9_D1 lcc:DescriptorSubType lcc:Name.
+hk:PARTY9_D1 lcc:DescriptorValue "Any Party".
+# --- 589 ---
+hk:ASSIGN1_D2 chub:ReferenceID "ASSIGN1_D2".
+hk:ASSIGN1_D2 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN1_D2 lcc:DescriptorType lcc:Name.
+hk:ASSIGN1_D2 lcc:DescriptorSubType lcc:Name.
+hk:ASSIGN1_D2 lcc:DescriptorValue "ImageCo Personal Website NonCommercial License".
+# --- 597 ---
+hk:ASSIGN2_D2 chub:ReferenceID "ASSIGN2_D2".
+hk:ASSIGN2_D2 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN2_D2 lcc:DescriptorType lcc:Name.
+hk:ASSIGN2_D2 lcc:DescriptorSubType lcc:Name.
+hk:ASSIGN2_D2 lcc:DescriptorValue "ImageCo Personal Website Commercial License".
+# --- 605 ---
+hk:ASSIGN3_D2 chub:ReferenceID "ASSIGN3_D2".
+hk:ASSIGN3_D2 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN3_D2 lcc:DescriptorType lcc:Name.
+hk:ASSIGN3_D2 lcc:DescriptorSubType lcc:Name.
+hk:ASSIGN3_D2 lcc:DescriptorValue "ImageCo Personal Social Media License".
+# --- 613 ---
+hk:ASSIGN4_D2 chub:ReferenceID "ASSIGN4_D2".
+hk:ASSIGN4_D2 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN4_D2 lcc:DescriptorType lcc:Name.
+hk:ASSIGN4_D2 lcc:DescriptorSubType lcc:Name.
+hk:ASSIGN4_D2 lcc:DescriptorValue "ImageCo Personal Digital Device Display License".
+# --- 619 ---
+# --- 622 ---
+hk:CREATION1_D1 chub:ReferenceID "CREATION1_D1".
+hk:CREATION1_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION1_D1 lcc:DescriptorType lcc:Identifier.
+hk:CREATION1_D1 lcc:DescriptorSubType chub:MaryEvansPictureID.
+hk:CREATION1_D1 lcc:DescriptorValue "100123".
+# --- 630 ---
+hk:CREATION2_D1 chub:ReferenceID "CREATION2_D1".
+hk:CREATION2_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION2_D1 lcc:DescriptorType lcc:Identifier.
+hk:CREATION2_D1 lcc:DescriptorSubType chub:MaryEvansPictureID.
+hk:CREATION2_D1 lcc:DescriptorValue "100456".
+# --- 638 ---
+hk:CREATION3_D1 chub:ReferenceID "CREATION3_D1".
+hk:CREATION3_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION3_D1 lcc:DescriptorType lcc:Identifier.
+hk:CREATION3_D1 lcc:DescriptorSubType chub:CapturePhotoID.
+hk:CREATION3_D1 lcc:DescriptorValue "999001".
+# --- 646 ---
+hk:CREATION4_D1 chub:ReferenceID "CREATION4_D1".
+hk:CREATION4_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION4_D1 lcc:DescriptorType lcc:Identifier.
+hk:CREATION4_D1 lcc:DescriptorSubType chub:CapturePhotoID.
+hk:CREATION4_D1 lcc:DescriptorValue "999002".
+# --- 654 ---
+hk:PARTY8_D2 chub:ReferenceID "PARTY8_D2".
+hk:PARTY8_D2 lcc:EntityType lcc:Descriptor.
+hk:PARTY8_D2 lcc:DescriptorType lcc:Identifier.
+hk:PARTY8_D2 lcc:DescriptorSubType chub:ISNI.
+hk:PARTY8_D2 lcc:DescriptorValue "0000-1234-5678-9000".
+# --- 662 ---
+hk:PARTY1_D2 chub:ReferenceID "PARTY1_D2".
+hk:PARTY1_D2 lcc:EntityType lcc:Descriptor.
+hk:PARTY1_D2 lcc:DescriptorType lcc:Identifier.
+hk:PARTY1_D2 lcc:DescriptorSubType chub:MaryEvansSourceID.
+hk:PARTY1_D2 lcc:DescriptorValue "RightSource1".
+# --- 670 ---
+hk:PARTY2_D2 chub:ReferenceID "PARTY2_D2".
+hk:PARTY2_D2 lcc:EntityType lcc:Descriptor.
+hk:PARTY2_D2 lcc:DescriptorType lcc:Identifier.
+hk:PARTY2_D2 lcc:DescriptorSubType chub:MaryEvansSourceID.
+hk:PARTY2_D2 lcc:DescriptorValue "RightSource2".
+# --- 678 ---
+hk:PARTY3_D2 chub:ReferenceID "PARTY3_D2".
+hk:PARTY3_D2 lcc:EntityType lcc:Descriptor.
+hk:PARTY3_D2 lcc:DescriptorType lcc:Identifier.
+hk:PARTY3_D2 lcc:DescriptorSubType chub:CaptureSourceID.
+hk:PARTY3_D2 lcc:DescriptorValue "RightSource3".
+# --- 686 ---
+hk:PARTY4_D2 chub:ReferenceID "PARTY4_D2".
+hk:PARTY4_D2 lcc:EntityType lcc:Descriptor.
+hk:PARTY4_D2 lcc:DescriptorType lcc:Identifier.
+hk:PARTY4_D2 lcc:DescriptorSubType chub:CaptureSourceID.
+hk:PARTY4_D2 lcc:DescriptorValue "RightSource4".
+# --- 694 ---
+hk:ASSIGN1_D1 chub:ReferenceID "ASSIGN1_D1".
+hk:ASSIGN1_D1 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN1_D1 lcc:DescriptorType lcc:Identifier.
+hk:ASSIGN1_D1 lcc:DescriptorSubType chub:ImageCoOfferID.
+hk:ASSIGN1_D1 lcc:DescriptorValue "ImageCoOffer1".
+# --- 702 ---
+hk:ASSIGN2_D1 chub:ReferenceID "ASSIGN2_D1".
+hk:ASSIGN2_D1 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN2_D1 lcc:DescriptorType lcc:Identifier.
+hk:ASSIGN2_D1 lcc:DescriptorSubType chub:ImageCoOfferID.
+hk:ASSIGN2_D1 lcc:DescriptorValue "ImageCoOffer2".
+# --- 710 ---
+hk:ASSIGN3_D1 chub:ReferenceID "ASSIGN3_D1".
+hk:ASSIGN3_D1 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN3_D1 lcc:DescriptorType lcc:Identifier.
+hk:ASSIGN3_D1 lcc:DescriptorSubType chub:ImageCoOfferID.
+hk:ASSIGN3_D1 lcc:DescriptorValue "ImageCoOffer3".
+# --- 718 ---
+hk:ASSIGN4_D1 chub:ReferenceID "ASSIGN4_D1".
+hk:ASSIGN4_D1 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN4_D1 lcc:DescriptorType lcc:Identifier.
+hk:ASSIGN4_D1 lcc:DescriptorSubType chub:ImageCoOfferID.
+hk:ASSIGN4_D1 lcc:DescriptorValue "ImageCoOffer4".
+# --- 726 ---
+hk:CREATION1_D2 chub:ReferenceID "CREATION1_D2".
+hk:CREATION1_D2 lcc:EntityType lcc:Descriptor.
+hk:CREATION1_D2 lcc:DescriptorType lcc:Annotation.
+hk:CREATION1_D2 lcc:DescriptorSubType chub:BriefDescription.
+hk:CREATION1_D2 lcc:DescriptorValue "Sunset over a Caribbean beach".
+# --- 734 ---
+hk:CREATION2_D2 chub:ReferenceID "CREATION2_D2".
+hk:CREATION2_D2 lcc:EntityType lcc:Descriptor.
+hk:CREATION2_D2 lcc:DescriptorType lcc:Annotation.
+hk:CREATION2_D2 lcc:DescriptorSubType chub:BriefDescription.
+hk:CREATION2_D2 lcc:DescriptorValue "Polar bear on an ice floe".
+# --- 742 ---
+hk:CREATION3_D2 chub:ReferenceID "CREATION3_D2".
+hk:CREATION3_D2 lcc:EntityType lcc:Descriptor.
+hk:CREATION3_D2 lcc:DescriptorType lcc:Annotation.
+hk:CREATION3_D2 lcc:DescriptorSubType chub:BriefDescription.
+hk:CREATION3_D2 lcc:DescriptorValue "Johnny Depp as Sweeney Todd".
+# --- 750 ---
+hk:CREATION4_D2 chub:ReferenceID "CREATION4_D2".
+hk:CREATION4_D2 lcc:EntityType lcc:Descriptor.
+hk:CREATION4_D2 lcc:DescriptorType lcc:Annotation.
+hk:CREATION4_D2 lcc:DescriptorSubType chub:BriefDescription.
+hk:CREATION4_D2 lcc:DescriptorValue "Evening street view Paris 1910".
+# --- 758 ---
+hk:CREATION5_D1 chub:ReferenceID "CREATION5_D1".
+hk:CREATION5_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION5_D1 lcc:DescriptorType lcc:Annotation.
+hk:CREATION5_D1 lcc:DescriptorSubType chub:Description.
+hk:CREATION5_D1 lcc:DescriptorValue "A personal, non commercial blog or website.".
+# --- 766 ---
+hk:CREATION6_D1 chub:ReferenceID "CREATION6_D1".
+hk:CREATION6_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION6_D1 lcc:DescriptorType lcc:Annotation.
+hk:CREATION6_D1 lcc:DescriptorSubType chub:Description.
+hk:CREATION6_D1 lcc:DescriptorValue "A personal, commercial blog or website.".
+# --- 774 ---
+hk:CREATION7_D1 chub:ReferenceID "CREATION7_D1".
+hk:CREATION7_D1 lcc:EntityType lcc:Descriptor.
+hk:CREATION7_D1 lcc:DescriptorType lcc:Annotation.
+hk:CREATION7_D1 lcc:DescriptorSubType chub:Description.
+hk:CREATION7_D1 lcc:DescriptorValue "A personal Social Media account.".
+# --- 780 ---
+# --- 782 ---
+hk:CSET1_D1 chub:ReferenceID "CSET1_D1".
+hk:CSET1_D1 lcc:EntityType lcc:Descriptor.
+hk:CSET1_D1 lcc:DescriptorType lcc:Annotation.
+hk:CSET1_D1 lcc:DescriptorSubType chub:Description.
+hk:CSET1_D1 lcc:DescriptorValue "A Set of Creations eligible for License Offer #1.".
+# --- 790 ---
+hk:CSET2_D1 chub:ReferenceID "CSET2_D1".
+hk:CSET2_D1 lcc:EntityType lcc:Descriptor.
+hk:CSET2_D1 lcc:DescriptorType lcc:Annotation.
+hk:CSET2_D1 lcc:DescriptorSubType chub:Description.
+hk:CSET2_D1 lcc:DescriptorValue "A Set of Creations eligible for License Offer #2.".
+# --- 798 ---
+hk:CSET3_D1 chub:ReferenceID "CSET3_D1".
+hk:CSET3_D1 lcc:EntityType lcc:Descriptor.
+hk:CSET3_D1 lcc:DescriptorType lcc:Annotation.
+hk:CSET3_D1 lcc:DescriptorSubType chub:Description.
+hk:CSET3_D1 lcc:DescriptorValue "A Set of Creations eligible for License Offer #3.".
+# --- 806 ---
+hk:CSET4_D1 chub:ReferenceID "CSET4_D1".
+hk:CSET4_D1 lcc:EntityType lcc:Descriptor.
+hk:CSET4_D1 lcc:DescriptorType lcc:Annotation.
+hk:CSET4_D1 lcc:DescriptorSubType chub:Description.
+hk:CSET4_D1 lcc:DescriptorValue "A Set of Creations eligible for License Offer #4".
+# --- 822 ---
+hk:ASSIGN1_D3 chub:ReferenceID "ASSIGN1_D3".
+hk:ASSIGN1_D3 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN1_D3 lcc:DescriptorType lcc:Annotation.
+hk:ASSIGN1_D3 lcc:DescriptorSubType chub:Description.
+hk:ASSIGN1_D3 lcc:DescriptorValue "This License Offer is for the use of a single photograph as part of the editorial content in a personal website or blog. The License Holder must be an individual (not an organization), and the site must be for non-commercial purposes - that is, not earning advertising revenue, selling products or having an average of more than 50,000 hits per month. The image may be displayed anywhere in the world, no larger than 400 x 400 pixels and the copyright holder must be acknowledged.".
+# --- 830 ---
+hk:ASSIGN2_D3 chub:ReferenceID "ASSIGN2_D3".
+hk:ASSIGN2_D3 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN2_D3 lcc:DescriptorType lcc:Annotation.
+hk:ASSIGN2_D3 lcc:DescriptorSubType chub:Description.
+hk:ASSIGN2_D3 lcc:DescriptorValue "This License Offer is for the use of a single photograph as part of the editorial content in a personal website or blog. The License Holder must be an individual (not an organization), and the site must be for commercial purposes - that is, earning advertising revenue or selling products - but receiving an average of more than 50,000 hits per month. The image may be displayed anywhere in the world, no larger than 400 x 400 pixels and the copyright holder must be acknowledged.".
+# --- 838 ---
+hk:ASSIGN3_D3 chub:ReferenceID "ASSIGN3_D3".
+hk:ASSIGN3_D3 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN3_D3 lcc:DescriptorType lcc:Annotation.
+hk:ASSIGN3_D3 lcc:DescriptorSubType chub:Description.
+hk:ASSIGN3_D3 lcc:DescriptorValue "This License Offer is for the use of a single photograph on a social media website. The License Holder must be an individual (not an organization), and the account must be personal (that is, not corporate or for commercial reasons).  The image may be displayed anywhere in the world, no larger than 400 x 400 pixels and the copyright holder must be acknowledged.".
+# --- 846 ---
+hk:ASSIGN4_D3 chub:ReferenceID "ASSIGN4_D3".
+hk:ASSIGN4_D3 lcc:EntityType lcc:Descriptor.
+hk:ASSIGN4_D3 lcc:DescriptorType lcc:Annotation.
+hk:ASSIGN4_D3 lcc:DescriptorSubType chub:Description.
+hk:ASSIGN4_D3 lcc:DescriptorValue "This License Offer is for the display of a single photograph as 'wallpaper' or similar background on a personal digital device such as a mobile phone, laptop computer or camera roll. The License Holder must be an individual (not an organization).".
+# --- 854 ---
+hk:ACK1_D1 chub:ReferenceID "ACK1_D1".
+hk:ACK1_D1 lcc:EntityType lcc:Descriptor.
+hk:ACK1_D1 lcc:DescriptorType lcc:Annotation.
+hk:ACK1_D1 lcc:DescriptorSubType chub:CopyrightNotice.
+hk:ACK1_D1 lcc:DescriptorValue "This photograph (c) ImageCo Ltd, all rights reserved.".
+# --- 862 ---
+hk:ACK2_LINK2 chub:ReferenceID "ACK2_LINK2".
+hk:ACK2_LINK2 lcc:EntityType lcc:Descriptor.
+hk:ACK2_LINK2 lcc:DescriptorType lcc:Annotation.
+hk:ACK2_LINK2 lcc:DescriptorSubType chub:CopyrightNotice.
+hk:ACK2_LINK2 lcc:DescriptorValue "This photograph (c) ImageCo Ltd, all rights reserved.".
+# --- 870 ---
+hk:ACK3_D1 chub:ReferenceID "ACK3_D1".
+hk:ACK3_D1 lcc:EntityType lcc:Descriptor.
+hk:ACK3_D1 lcc:DescriptorType lcc:Annotation.
+hk:ACK3_D1 lcc:DescriptorSubType chub:CopyrightNotice.
+hk:ACK3_D1 lcc:DescriptorValue "This photograph (c) ImageCo Ltd, all rights reserved.".
+# --- 879 ---
+hk:PAY1_Q1 chub:ReferenceID "PAY1_Q1".
+hk:PAY1_Q1 lcc:EntityType lcc:Quantity.
+hk:PAY1_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:PAY1_Q1 lcc:QuantityType chub:Amount.
+hk:PAY1_Q1 lcc:UnitOfMeasure chub:UkPound.
+hk:PAY1_Q1 lcc:SingleQuantityValue "10".
+hk:PAY1_Q1 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 889 ---
+hk:PAY2_Q1 chub:ReferenceID "PAY2_Q1".
+hk:PAY2_Q1 lcc:EntityType lcc:Quantity.
+hk:PAY2_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:PAY2_Q1 lcc:QuantityType chub:Amount.
+hk:PAY2_Q1 lcc:UnitOfMeasure chub:UkPound.
+hk:PAY2_Q1 lcc:SingleQuantityValue "25".
+hk:PAY2_Q1 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 899 ---
+hk:PAY3_Q1 chub:ReferenceID "PAY3_Q1".
+hk:PAY3_Q1 lcc:EntityType lcc:Quantity.
+hk:PAY3_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:PAY3_Q1 lcc:QuantityType chub:Amount.
+hk:PAY3_Q1 lcc:UnitOfMeasure chub:UkPound.
+hk:PAY3_Q1 lcc:SingleQuantityValue "15".
+hk:PAY3_Q1 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 909 ---
+hk:PAY4_Q1 chub:ReferenceID "PAY4_Q1".
+hk:PAY4_Q1 lcc:EntityType lcc:Quantity.
+hk:PAY4_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:PAY4_Q1 lcc:QuantityType chub:Amount.
+hk:PAY4_Q1 lcc:UnitOfMeasure chub:UkPound.
+hk:PAY4_Q1 lcc:SingleQuantityValue "10".
+hk:PAY4_Q1 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 919 ---
+hk:RIGHT1_Q1 chub:ReferenceID "RIGHT1_Q1".
+hk:RIGHT1_Q1 lcc:EntityType lcc:Quantity.
+hk:RIGHT1_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT1_Q1 lcc:QuantityType chub:Width.
+hk:RIGHT1_Q1 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT1_Q1 lcc:SingleQuantityValue "400".
+hk:RIGHT1_Q1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 929 ---
+hk:RIGHT1_Q2 chub:ReferenceID "RIGHT1_Q2".
+hk:RIGHT1_Q2 lcc:EntityType lcc:Quantity.
+hk:RIGHT1_Q2 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT1_Q2 lcc:QuantityType chub:Height.
+hk:RIGHT1_Q2 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT1_Q2 lcc:SingleQuantityValue "400".
+hk:RIGHT1_Q2 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 939 ---
+hk:RIGHT1_Q3 chub:ReferenceID "RIGHT1_Q3".
+hk:RIGHT1_Q3 lcc:EntityType lcc:Quantity.
+hk:RIGHT1_Q3 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT1_Q3 lcc:QuantityType chub:NumberOfSites.
+hk:RIGHT1_Q3 lcc:UnitOfMeasure lcc:Unit.
+hk:RIGHT1_Q3 lcc:SingleQuantityValue "1".
+hk:RIGHT1_Q3 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 949 ---
+hk:CREATION5_Q1 chub:ReferenceID "CREATION5_Q1".
+hk:CREATION5_Q1 lcc:EntityType lcc:Quantity.
+hk:CREATION5_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:CREATION5_Q1 lcc:QuantityType chub:NumberOfViews.
+hk:CREATION5_Q1 lcc:UnitOfMeasure lcc:Unit.
+hk:CREATION5_Q1 lcc:SingleQuantityValue "50000".
+hk:CREATION5_Q1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 959 ---
+hk:RIGHT2_Q1 chub:ReferenceID "RIGHT2_Q1".
+hk:RIGHT2_Q1 lcc:EntityType lcc:Quantity.
+hk:RIGHT2_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT2_Q1 lcc:QuantityType chub:Width.
+hk:RIGHT2_Q1 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT2_Q1 lcc:SingleQuantityValue "400".
+hk:RIGHT2_Q1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 969 ---
+hk:RIGHT2_Q2 chub:ReferenceID "RIGHT2_Q2".
+hk:RIGHT2_Q2 lcc:EntityType lcc:Quantity.
+hk:RIGHT2_Q2 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT2_Q2 lcc:QuantityType chub:Height.
+hk:RIGHT2_Q2 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT2_Q2 lcc:SingleQuantityValue "400".
+hk:RIGHT2_Q2 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 979 ---
+hk:RIGHT2_Q3 chub:ReferenceID "RIGHT2_Q3".
+hk:RIGHT2_Q3 lcc:EntityType lcc:Quantity.
+hk:RIGHT2_Q3 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT2_Q3 lcc:QuantityType chub:NumberOfSites.
+hk:RIGHT2_Q3 lcc:UnitOfMeasure lcc:Unit.
+hk:RIGHT2_Q3 lcc:SingleQuantityValue "1".
+hk:RIGHT2_Q3 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 989 ---
+hk:CREATION6_D1 chub:ReferenceID "CREATION6_D1".
+hk:CREATION6_D1 lcc:EntityType lcc:Quantity.
+hk:CREATION6_D1 lcc:QuantityMode lcc:SingleQuantity.
+hk:CREATION6_D1 lcc:QuantityType chub:NumberOfViews.
+hk:CREATION6_D1 lcc:UnitOfMeasure lcc:Unit.
+hk:CREATION6_D1 lcc:SingleQuantityValue "50000".
+hk:CREATION6_D1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 999 ---
+hk:RIGHT3_Q1 chub:ReferenceID "RIGHT3_Q1".
+hk:RIGHT3_Q1 lcc:EntityType lcc:Quantity.
+hk:RIGHT3_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT3_Q1 lcc:QuantityType chub:Width.
+hk:RIGHT3_Q1 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT3_Q1 lcc:SingleQuantityValue "400".
+hk:RIGHT3_Q1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 1009 ---
+hk:RIGHT3_Q2 chub:ReferenceID "RIGHT3_Q2".
+hk:RIGHT3_Q2 lcc:EntityType lcc:Quantity.
+hk:RIGHT3_Q2 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT3_Q2 lcc:QuantityType chub:Height.
+hk:RIGHT3_Q2 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT3_Q2 lcc:SingleQuantityValue "400".
+hk:RIGHT3_Q2 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 1019 ---
+hk:RIGHT3_Q3 chub:ReferenceID "RIGHT3_Q3".
+hk:RIGHT3_Q3 lcc:EntityType lcc:Quantity.
+hk:RIGHT3_Q3 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT3_Q3 lcc:QuantityType chub:NumberOfSites.
+hk:RIGHT3_Q3 lcc:UnitOfMeasure lcc:Unit.
+hk:RIGHT3_Q3 lcc:SingleQuantityValue "1".
+hk:RIGHT3_Q3 lcc:SingleQuantityProximity lcc:Exactly.
+# --- 1029 ---
+hk:RIGHT4_Q1 chub:ReferenceID "RIGHT4_Q1".
+hk:RIGHT4_Q1 lcc:EntityType lcc:Quantity.
+hk:RIGHT4_Q1 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT4_Q1 lcc:QuantityType chub:Width.
+hk:RIGHT4_Q1 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT4_Q1 lcc:SingleQuantityValue "400".
+hk:RIGHT4_Q1 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 1039 ---
+hk:RIGHT4_Q2 chub:ReferenceID "RIGHT4_Q2".
+hk:RIGHT4_Q2 lcc:EntityType lcc:Quantity.
+hk:RIGHT4_Q2 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT4_Q2 lcc:QuantityType chub:Height.
+hk:RIGHT4_Q2 lcc:UnitOfMeasure chub:Pixel.
+hk:RIGHT4_Q2 lcc:SingleQuantityValue "400".
+hk:RIGHT4_Q2 lcc:SingleQuantityProximity lcc:NotGreaterThan.
+# --- 1049 ---
+hk:RIGHT4_Q3 chub:ReferenceID "RIGHT4_Q3".
+hk:RIGHT4_Q3 lcc:EntityType lcc:Quantity.
+hk:RIGHT4_Q3 lcc:QuantityMode lcc:SingleQuantity.
+hk:RIGHT4_Q3 lcc:QuantityType chub:NumberOfDevices.
+hk:RIGHT4_Q3 lcc:UnitOfMeasure lcc:Unit.
+hk:RIGHT4_Q3 lcc:SingleQuantityValue "1".
+hk:RIGHT4_Q3 lcc:SingleQuantityProximity lcc:Exactly.
+# 00:00:05

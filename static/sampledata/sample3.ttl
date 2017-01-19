@@ -1,0 +1,299 @@
+@prefix chub: <http://www.copyrighthub.org/2014/chub#> .
+@prefix hk: <http://www.copyrighthub.org/2014/hk#> .
+@prefix lcc: <http://www.rightscom.com/2011/lcc#> .
+@prefix lem: <http://www.rightscom.com/2011/lem#> .
+@prefix ns1: <http://www.rightscom.com/2011/rdi#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:id_C2901R10 lcc:EntityWithLink ns1:id_C2901 ;
+    lcc:LinkedEntity ns1:id_P1019 ;
+    lem:hasEntity2Role lcc:Rightsholder ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+ns1:id_C2901R11 lcc:EntityWithLink ns1:id_C2901 ;
+    lcc:LinkedEntity ns1:id_C2915 ;
+    lem:hasEntity2Role lcc:AssignableRight ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Right .
+
+ns1:id_C2901R12 lcc:EntityWithLink ns1:id_C2901 ;
+    lcc:LinkedEntity ns1:id_C4060 ;
+    lem:hasEntity2Role lcc:UnsynchronizedCondition ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Context .
+
+ns1:id_C2915R24 lcc:EntityWithLink ns1:id_C2915 ;
+    lcc:LinkedEntity ns1:id_P1019 ;
+    lem:hasEntity2Role lcc:Rightsholder ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+ns1:id_C2915R25 lcc:EntityWithLink ns1:id_C2915 ;
+    lcc:LinkedEntity ns1:id_R439 ;
+    lem:hasEntity2Role lcc:ControlledCreation ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Creation .
+
+ns1:id_C3622R29 lcc:EntityWithLink ns1:id_C3622 ;
+    lcc:LinkedEntity ns1:id_P1460 ;
+    lem:hasEntity2Role lcc:Assigner ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+ns1:id_C3622R30 lcc:EntityWithLink ns1:id_C3622 ;
+    lcc:LinkedEntity ns1:id_P996 ;
+    lem:hasEntity2Role lcc:Assignee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+ns1:id_C3622R31 lcc:EntityWithLink ns1:id_C3622 ;
+    lcc:LinkedEntity ns1:id_C2901 ;
+    lem:hasEntity2Role lcc:PermittedRight ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Right .
+
+ns1:id_T1 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_C2901C04 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2901C05 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2901C06 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue <http://www.rightscom.com/2010/xyz#assign> ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2901C07 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue ns1:World ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2901C08 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2915C18 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2915C19 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2915C20 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue <http://www.rightscom.com/2010/odr#display> ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2915C21 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue ns1:Italy ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C2915C22 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3622C25 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3622C26 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:RightsAssignment ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3622C27 lem:hasCategoryType lcc:RightsAssignmentType ;
+    lem:hasCategoryValue lcc:RightsAgreement ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3622C28 lem:hasCategoryType lcc:RightsAssignmentStatus ;
+    lem:hasCategoryValue lcc:RightsOffer ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3622D33 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "policy:5531" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3622D33" ;
+    ns1:ReferenceName "(uid) 'policy:5531' -> (RightsOffer) sony II <-> Any Party" .
+
+ns1:id_C3622D34 lcc:AnnotationType ns1:BriefDescription ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Rightsholder offers to delegate a control Right." ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3622D34" ;
+    ns1:ReferenceName "BriefDescription -> (RightsOffer) sony II <-> Any Party" .
+
+ns1:id_C3622D35 lcc:AnnotationType ns1:RightsSummary ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "Company “sony” offers the right to delegate the right to license the “display” right (for Italy only) for a particular digital wallpaper image for a one-off payment of $1000 Euros. This use case is taken from the ODRL 2.0 final spec (April 2012), Scenario 3.6 (described by ODRL as an “Offer and Next Policy”)." ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3622D35" ;
+    ns1:ReferenceName "RightsSummary -> (RightsOffer) sony II <-> Any Party" .
+
+ns1:id_C4060 lem:hasCategory ns1:id_C4060C63,
+        ns1:id_C4060C64 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasQuantity ns1:id_C4060Q67 ;
+    ns1:ReferenceID "id_C4060" ;
+    ns1:ReferenceName "(Pay) Any Party -> sony II" .
+
+ns1:id_C4060C63 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C4060C64 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue ns1:Pay ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C4060Q67 lem:QuantityForm lcc:SingleQuantity ;
+    lem:hasEntityType lem:Quantity ;
+    lem:hasQuantityType ns1:PaidAmount ;
+    lem:hasSingleQuantityProximity lcc:Exactly ;
+    lem:hasSingleQuantityValue 1000.0 ;
+    lem:hasUnitOfMeasure ns1:Euro ;
+    ns1:ReferenceID "id_C4060Q67" ;
+    ns1:ReferenceName "PaidAmount -> (Pay) Any Party -> sony II" .
+
+ns1:id_P1019C22 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:True ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1019C23 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue ns1:Unknown ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1460 lem:hasCategory ns1:id_P1460C63,
+        ns1:id_P1460C64 ;
+    lem:hasDescriptor ns1:id_P1460D67 ;
+    lem:hasEntityType lcc:Party ;
+    ns1:ReferenceID "id_P1460" ;
+    ns1:ReferenceName "sony II" .
+
+ns1:id_P1460C63 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1460C64 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue ns1:Unknown ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1460D67 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "sony:99" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_P1460D67" ;
+    ns1:ReferenceName "(uid) 'sony:99' -> sony II" .
+
+ns1:id_P996 lem:hasCategory ns1:id_P996C00,
+        ns1:id_P996C99 ;
+    lem:hasEntityType lcc:Party ;
+    ns1:ReferenceID "id_P996" ;
+    ns1:ReferenceName "Any Party" .
+
+ns1:id_P996C00 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue ns1:Unknown ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P996C99 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:True ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_R439 lem:hasCategory ns1:id_R439C42,
+        ns1:id_R439C43 ;
+    lem:hasDescriptor ns1:id_R439D45 ;
+    lem:hasEntityType lcc:Creation ;
+    ns1:ReferenceID "id_R439" ;
+    ns1:ReferenceName "A Digital Wallpaper" .
+
+ns1:id_R439C42 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_R439C43 lem:hasCategoryType lcc:hasCreationForm ;
+    lem:hasCategoryValue lcc:Fixation ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_R439D45 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "wallpaper:2321" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_R439D45" ;
+    ns1:ReferenceName "(uid) 'wallpaper:2321' -> A Digital Wallpaper" .
+
+ns1:id_T1C2901 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1C2901" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_T1C2915 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1C2915" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_P1019 lem:hasCategory ns1:id_P1019C22,
+        ns1:id_P1019C23 ;
+    lem:hasEntityType lcc:Party ;
+    ns1:ReferenceID "id_P1019" ;
+    ns1:ReferenceName "Any Third Party" .
+
+ns1:id_C2915 lem:hasCategory ns1:id_C2915C18,
+        ns1:id_C2915C19,
+        ns1:id_C2915C20,
+        ns1:id_C2915C21,
+        ns1:id_C2915C22 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime ns1:id_T1C2915 ;
+    ns1:ReferenceID "id_C2915" ;
+    ns1:ReferenceName "(ControlRight) A Digital Wallpaper -> Any Third Party (display)" .
+
+ns1:id_C3622 lem:hasCategory ns1:id_C3622C25,
+        ns1:id_C3622C26,
+        ns1:id_C3622C27,
+        ns1:id_C3622C28 ;
+    lem:hasDescriptor ns1:id_C3622D33,
+        ns1:id_C3622D34,
+        ns1:id_C3622D35 ;
+    lem:hasEntityType lcc:Context ;
+    ns1:ReferenceID "id_C3622" ;
+    ns1:ReferenceName "(RightsOffer) sony II <-> Any Party" .
+
+ns1:id_C2901 lem:hasCategory ns1:id_C2901C04,
+        ns1:id_C2901C05,
+        ns1:id_C2901C06,
+        ns1:id_C2901C07,
+        ns1:id_C2901C08 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime ns1:id_T1C2901 ;
+    ns1:ReferenceID "id_C2901" ;
+    ns1:ReferenceName "(ControlRight) (ControlRight) A Digital Wallpaper -> Any Third Party (display) -> Any Third Party (assign)" .
+
+

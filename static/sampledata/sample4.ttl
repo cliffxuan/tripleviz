@@ -1,0 +1,341 @@
+@prefix chub: <http://www.copyrighthub.org/2014/chub#> .
+@prefix hk: <http://www.copyrighthub.org/2014/hk#> .
+@prefix lcc: <http://www.rightscom.com/2011/lcc#> .
+@prefix lem: <http://www.rightscom.com/2011/lem#> .
+@prefix ns1: <http://www.rightscom.com/2011/rdi#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:id_C3233R43 lcc:EntityWithLink ns1:id_C3233 ;
+    lcc:LinkedEntity ns1:id_P1219 ;
+    lem:hasEntity2Role lcc:Rightsholder ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+ns1:id_C3233R44 lcc:EntityWithLink ns1:id_C3233 ;
+    lcc:LinkedEntity ns1:id_R559 ;
+    lem:hasEntity2Role lcc:ControlledCreation ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Creation .
+
+ns1:id_C3233R45 lcc:EntityWithLink ns1:id_C3233 ;
+    lcc:LinkedEntity ns1:id_C4040 ;
+    lem:hasEntity2Role lcc:UnsynchronizedCondition ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Context .
+
+ns1:id_C3248R57 lcc:EntityWithLink ns1:id_C3248 ;
+    lcc:LinkedEntity ns1:id_P1219 ;
+    lem:hasEntity2Role lcc:Rightsholder ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Party .
+
+ns1:id_C3248R58 lcc:EntityWithLink ns1:id_C3248 ;
+    lcc:LinkedEntity ns1:id_R559 ;
+    lem:hasEntity2Role lcc:ControlledCreation ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Creation .
+
+ns1:id_C3248R59 lcc:EntityWithLink ns1:id_C3248 ;
+    lcc:LinkedEntity ns1:id_C4040 ;
+    lem:hasEntity2Role lcc:UnsynchronizedCondition ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Right_Context .
+
+ns1:id_C3359R66 lcc:EntityWithLink ns1:id_C3359 ;
+    lcc:LinkedEntity ns1:id_P1450 ;
+    lem:hasEntity2Role lcc:Assigner ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+ns1:id_C3359R67 lcc:EntityWithLink ns1:id_C3359 ;
+    lcc:LinkedEntity ns1:id_P1219 ;
+    lem:hasEntity2Role lcc:Assignee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Party .
+
+ns1:id_C3359R68 lcc:EntityWithLink ns1:id_C3359 ;
+    lcc:LinkedEntity ns1:id_C3233 ;
+    lem:hasEntity2Role lcc:PermittedRight ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Right .
+
+ns1:id_C3359R69 lcc:EntityWithLink ns1:id_C3359 ;
+    lcc:LinkedEntity ns1:id_C3248 ;
+    lem:hasEntity2Role lcc:PermittedRight ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:RightsAssignment_Right .
+
+ns1:id_C4040R45 lcc:EntityWithLink ns1:id_C4040 ;
+    lcc:LinkedEntity ns1:id_P1219 ;
+    lem:hasEntity2Role ns1:Payer ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Context_Party .
+
+ns1:id_C4040R46 lcc:EntityWithLink ns1:id_C4040 ;
+    lcc:LinkedEntity ns1:id_P1450 ;
+    lem:hasEntity2Role ns1:Payee ;
+    lem:hasEntityType lem:Link ;
+    lem:hasLinkType lcc:Context_Party .
+
+ns1:id_T1 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_C3233C36 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3233C37 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3233C38 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue <http://www.rightscom.com/2010/odr#copy> ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3233C39 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue ns1:World ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3233C40 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3233Q41 lem:QuantityForm lcc:SingleQuantity ;
+    lem:hasEntityType lem:Quantity ;
+    lem:hasQuantityType lcc:NumberOfUses ;
+    lem:hasSingleQuantityProximity lcc:Exactly ;
+    lem:hasSingleQuantityValue "1"^^xsd:int ;
+    lem:hasUnitOfMeasure lcc:Unit .
+
+ns1:id_C3248C51 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3248C52 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:Right ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3248C53 lem:hasCategoryType lcc:RightType ;
+    lem:hasCategoryValue <http://www.rightscom.com/2010/odr#play> ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3248C54 lem:hasCategoryType lcc:Territory ;
+    lem:hasCategoryValue ns1:World ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3248C55 lem:hasCategoryType lcc:IsExclusive ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3359C62 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3359C63 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue lcc:RightsAssignment ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3359C64 lem:hasCategoryType lcc:RightsAssignmentType ;
+    lem:hasCategoryValue lcc:RightsAgreement ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3359C65 lem:hasCategoryType lcc:RightsAssignmentStatus ;
+    lem:hasCategoryValue lcc:ExecutedRightsAssignment ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C3359D71 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "policy:9001" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3359D71" ;
+    ns1:ReferenceName "(uid) 'policy:9001' -> (License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C3359D72 lcc:IdentifierType ns1:LccUseCaseID ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "ODRL3" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3359D72" ;
+    ns1:ReferenceName "(LccUseCaseID) 'ODRL3' -> (License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C3359D73 lcc:AnnotationType ns1:BriefDescription ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Rightsholder agrees to grant a usage Right to another Party." ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3359D73" ;
+    ns1:ReferenceName "BriefDescription -> (License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C3359D74 lcc:AnnotationType ns1:RightsSummary ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "A Rightsholder agrees to grant a usage Right to another Party. This use case is taken from the ODRL 2.0 final spec (April 2012), Scenario 3.3 (described by ODRL as an “Agreement”)." ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3359D74" ;
+    ns1:ReferenceName "RightsSummary -> (License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C3359D75 lcc:AnnotationType ns1:Comment ;
+    lem:hasDescriptorType lcc:Annotation ;
+    lem:hasDescriptorValue "This is a simple and typical license agreement for the download of a music file. The use case includes the application of a condition (in this case, a payment) to two different Rights. In this case the payment is made only once: it would need to be qualified if the payment were to be made per use." ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_C3359D75" ;
+    ns1:ReferenceName "Comment -> (License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C4040C43 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C4040C44 lem:hasCategoryType lcc:ContextType ;
+    lem:hasCategoryValue ns1:Pay ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_C4040Q47 lem:QuantityForm lcc:SingleQuantity ;
+    lem:hasEntityType lem:Quantity ;
+    lem:hasQuantityType ns1:PaidAmount ;
+    lem:hasSingleQuantityProximity lcc:Exactly ;
+    lem:hasSingleQuantityValue 0.5 ;
+    lem:hasUnitOfMeasure ns1:Dollar_Australia ;
+    ns1:ReferenceID "id_C4040Q47" ;
+    ns1:ReferenceName "PaidAmount -> (Pay) billie -> sony" .
+
+ns1:id_P1219C22 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1219C23 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue lcc:Individual ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1219D24 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "billie:888" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_P1219D24" ;
+    ns1:ReferenceName "(uid) 'billie:888' -> billie" .
+
+ns1:id_P1450C53 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1450C54 lem:hasCategoryType lcc:PartyType ;
+    lem:hasCategoryValue ns1:Unknown ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_P1450D57 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "sony:10" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_P1450D57" ;
+    ns1:ReferenceName "(uid) 'sony:10' -> sony" .
+
+ns1:id_R559C62 lem:hasCategoryType lem:hasEntityForm ;
+    lem:hasCategoryValue lcc:False ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_R559C63 lem:hasCategoryType lcc:hasCreationForm ;
+    lem:hasCategoryValue lcc:Fixation ;
+    lem:hasEntityType lem:Category .
+
+ns1:id_R559D66 lcc:IdentifierType <http://www.rightscom.com/2010/odr#uid> ;
+    lem:hasDescriptorType lcc:Identifier ;
+    lem:hasDescriptorValue "music:4545" ;
+    lem:hasEntityType lem:Descriptor ;
+    ns1:ReferenceID "id_R559D66" ;
+    ns1:ReferenceName "(uid) 'music:4545' -> Unnamed Digital File" .
+
+ns1:id_T1C3233 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1C3233" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_T1C3248 lem:TimeForm lcc:Period ;
+    lem:hasEntityType lem:Time ;
+    lem:hasPeriodEndProximity lcc:Exactly ;
+    lem:hasPeriodEndValue "9999-12-31"^^xsd:date ;
+    lem:hasPeriodStartProximity lcc:Exactly ;
+    lem:hasPeriodStartValue "0001-01-01"^^xsd:date ;
+    lem:hasTimeType lcc:ValidPeriod ;
+    ns1:PeriodEndFormat ns1:Date ;
+    ns1:PeriodStartFormat ns1:Date ;
+    ns1:ReferenceID "id_T1C3248" ;
+    ns1:ReferenceName "ValidPeriod AnyTime" .
+
+ns1:id_P1450 lem:hasCategory ns1:id_P1450C53,
+        ns1:id_P1450C54 ;
+    lem:hasDescriptor ns1:id_P1450D57 ;
+    lem:hasEntityType lcc:Party ;
+    ns1:ReferenceID "id_P1450" ;
+    ns1:ReferenceName "sony" .
+
+ns1:id_R559 lem:hasCategory ns1:id_R559C62,
+        ns1:id_R559C63 ;
+    lem:hasDescriptor ns1:id_R559D66 ;
+    lem:hasEntityType lcc:Creation ;
+    ns1:ReferenceID "id_R559" ;
+    ns1:ReferenceName "Unnamed Digital File" .
+
+ns1:id_C3233 lem:hasCategory ns1:id_C3233C36,
+        ns1:id_C3233C37,
+        ns1:id_C3233C38,
+        ns1:id_C3233C39,
+        ns1:id_C3233C40 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasQuantity ns1:id_C3233Q41 ;
+    lem:hasTime ns1:id_T1C3233 ;
+    ns1:ReferenceID "id_C3233" ;
+    ns1:ReferenceName "Unnamed Digital File -> billie (copy)" .
+
+ns1:id_C3248 lem:hasCategory ns1:id_C3248C51,
+        ns1:id_C3248C52,
+        ns1:id_C3248C53,
+        ns1:id_C3248C54,
+        ns1:id_C3248C55 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasTime ns1:id_T1C3248 ;
+    ns1:ReferenceID "id_C3248" ;
+    ns1:ReferenceName "Unnamed Digital File -> billie (play)" .
+
+ns1:id_C3359 lem:hasCategory ns1:id_C3359C62,
+        ns1:id_C3359C63,
+        ns1:id_C3359C64,
+        ns1:id_C3359C65 ;
+    lem:hasDescriptor ns1:id_C3359D71,
+        ns1:id_C3359D72,
+        ns1:id_C3359D73,
+        ns1:id_C3359D74,
+        ns1:id_C3359D75 ;
+    lem:hasEntityType lcc:Context ;
+    ns1:ReferenceID "id_C3359" ;
+    ns1:ReferenceName "(License) sony <-> billie (copy, play file without exclusion) LCC UseCase ODRL3" .
+
+ns1:id_C4040 lem:hasCategory ns1:id_C4040C43,
+        ns1:id_C4040C44 ;
+    lem:hasEntityType lcc:Context ;
+    lem:hasQuantity ns1:id_C4040Q47 ;
+    ns1:ReferenceID "id_C4040" ;
+    ns1:ReferenceName "(Pay) billie -> sony" .
+
+ns1:id_P1219 lem:hasCategory ns1:id_P1219C22,
+        ns1:id_P1219C23 ;
+    lem:hasDescriptor ns1:id_P1219D24 ;
+    lem:hasEntityType lcc:Party ;
+    ns1:ReferenceID "id_P1219" ;
+    ns1:ReferenceName "billie" .
+
+

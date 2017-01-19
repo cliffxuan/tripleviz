@@ -1,0 +1,687 @@
+{
+  "directed": false,
+  "graph": [],
+  "links": [
+    {
+      "source": 0,
+      "target": 49
+    },
+    {
+      "source": 1,
+      "target": 37
+    },
+    {
+      "source": 1,
+      "target": 42
+    },
+    {
+      "source": 2,
+      "target": 42
+    },
+    {
+      "source": 3,
+      "target": 72
+    },
+    {
+      "source": 4,
+      "target": 64
+    },
+    {
+      "source": 4,
+      "target": 21
+    },
+    {
+      "source": 4,
+      "target": 58
+    },
+    {
+      "source": 4,
+      "target": 26
+    },
+    {
+      "source": 4,
+      "target": 12
+    },
+    {
+      "source": 4,
+      "target": 35
+    },
+    {
+      "source": 5,
+      "target": 69
+    },
+    {
+      "source": 6,
+      "target": 69
+    },
+    {
+      "source": 7,
+      "target": 66
+    },
+    {
+      "source": 8,
+      "target": 49
+    },
+    {
+      "source": 9,
+      "target": 65
+    },
+    {
+      "source": 10,
+      "target": 66
+    },
+    {
+      "source": 11,
+      "target": 49
+    },
+    {
+      "source": 12,
+      "target": 47
+    },
+    {
+      "source": 13,
+      "target": 38
+    },
+    {
+      "source": 13,
+      "target": 47
+    },
+    {
+      "source": 14,
+      "target": 47
+    },
+    {
+      "source": 14,
+      "target": 69
+    },
+    {
+      "source": 15,
+      "target": 49
+    },
+    {
+      "source": 16,
+      "target": 49
+    },
+    {
+      "source": 17,
+      "target": 49
+    },
+    {
+      "source": 18,
+      "target": 72
+    },
+    {
+      "source": 18,
+      "target": 69
+    },
+    {
+      "source": 19,
+      "target": 72
+    },
+    {
+      "source": 19,
+      "target": 49
+    },
+    {
+      "source": 20,
+      "target": 70
+    },
+    {
+      "source": 20,
+      "target": 72
+    },
+    {
+      "source": 22,
+      "target": 72
+    },
+    {
+      "source": 23,
+      "target": 72
+    },
+    {
+      "source": 24,
+      "target": 70
+    },
+    {
+      "source": 25,
+      "target": 70
+    },
+    {
+      "source": 26,
+      "target": 69
+    },
+    {
+      "source": 27,
+      "target": 65
+    },
+    {
+      "source": 28,
+      "target": 47
+    },
+    {
+      "source": 29,
+      "target": 47
+    },
+    {
+      "source": 30,
+      "target": 47
+    },
+    {
+      "source": 31,
+      "target": 69
+    },
+    {
+      "source": 32,
+      "target": 47
+    },
+    {
+      "source": 33,
+      "target": 65
+    },
+    {
+      "source": 33,
+      "target": 42
+    },
+    {
+      "source": 34,
+      "target": 38
+    },
+    {
+      "source": 36,
+      "target": 38
+    },
+    {
+      "source": 37,
+      "target": 59
+    },
+    {
+      "source": 37,
+      "target": 60
+    },
+    {
+      "source": 37,
+      "target": 45
+    },
+    {
+      "source": 38,
+      "target": 46
+    },
+    {
+      "source": 38,
+      "target": 44
+    },
+    {
+      "source": 38,
+      "target": 51
+    },
+    {
+      "source": 38,
+      "target": 55
+    },
+    {
+      "source": 39,
+      "target": 42
+    },
+    {
+      "source": 40,
+      "target": 66
+    },
+    {
+      "source": 41,
+      "target": 66
+    },
+    {
+      "source": 42,
+      "target": 71
+    },
+    {
+      "source": 42,
+      "target": 54
+    },
+    {
+      "source": 42,
+      "target": 73
+    },
+    {
+      "source": 43,
+      "target": 66
+    },
+    {
+      "source": 46,
+      "target": 66
+    },
+    {
+      "source": 47,
+      "target": 63
+    },
+    {
+      "source": 47,
+      "target": 53
+    },
+    {
+      "source": 48,
+      "target": 72
+    },
+    {
+      "source": 49,
+      "target": 50
+    },
+    {
+      "source": 49,
+      "target": 51
+    },
+    {
+      "source": 50,
+      "target": 70
+    },
+    {
+      "source": 52,
+      "target": 72
+    },
+    {
+      "source": 54,
+      "target": 66
+    },
+    {
+      "source": 56,
+      "target": 72
+    },
+    {
+      "source": 57,
+      "target": 70
+    },
+    {
+      "source": 61,
+      "target": 70
+    },
+    {
+      "source": 62,
+      "target": 72
+    },
+    {
+      "source": 64,
+      "target": 70
+    },
+    {
+      "source": 65,
+      "target": 67
+    },
+    {
+      "source": 65,
+      "target": 68
+    }
+  ],
+  "multigraph": false,
+  "nodes": [
+    {
+      "group": "Time",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_T1",
+      "name": "RIGHT1_T1"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_LINK2",
+      "name": "CSET1_LINK2"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_C68",
+      "name": "CSET1_C68"
+    },
+    {
+      "group": "Time",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_T1",
+      "name": "ASSIGN1_T1"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1",
+      "name": "PAY1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY7_C67",
+      "name": "PARTY7_C67"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY7_C66",
+      "name": "PARTY7_C66"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1_D1",
+      "name": "CREATION1_D1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_C85",
+      "name": "RIGHT1_C85"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY1_C20",
+      "name": "PARTY1_C20"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1_D2",
+      "name": "CREATION1_D2"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_C84",
+      "name": "RIGHT1_C84"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_LINK3",
+      "name": "RIGHT2_LINK3"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_LINK2",
+      "name": "RIGHT2_LINK2"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_LINK1",
+      "name": "RIGHT2_LINK1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_C86",
+      "name": "RIGHT1_C86"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_C83",
+      "name": "RIGHT1_C83"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_C82",
+      "name": "RIGHT1_C82"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_LINK2",
+      "name": "ASSIGN1_LINK2"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_LINK3",
+      "name": "ASSIGN1_LINK3"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_LINK1",
+      "name": "ASSIGN1_LINK1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1_C22",
+      "name": "PAY1_C22"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_C15",
+      "name": "ASSIGN1_C15"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_C10",
+      "name": "ASSIGN1_C10"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY8_D1",
+      "name": "PARTY8_D1"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY8_D2",
+      "name": "PARTY8_D2"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1_LINK1",
+      "name": "PAY1_LINK1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY1_C21",
+      "name": "PARTY1_C21"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_C94",
+      "name": "RIGHT2_C94"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_C97",
+      "name": "RIGHT2_C97"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_C96",
+      "name": "RIGHT2_C96"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY7_D1",
+      "name": "PARTY7_D1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_C95",
+      "name": "RIGHT2_C95"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_LINK1",
+      "name": "CSET1_LINK1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5_C13",
+      "name": "CSET5_C13"
+    },
+    {
+      "group": "Quantity",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1_Q1",
+      "name": "PAY1_Q1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5_C08",
+      "name": "CSET5_C08"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY5",
+      "name": "PARTY5"
+    },
+    {
+      "group": "Creation",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5",
+      "name": "CSET5"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_D1",
+      "name": "CSET1_D1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1_C28",
+      "name": "CREATION1_C28"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1_C27",
+      "name": "CREATION1_C27"
+    },
+    {
+      "group": "Creation",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1",
+      "name": "CSET1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1_C29",
+      "name": "CREATION1_C29"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5_C07",
+      "name": "CSET5_C07"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY5_D1",
+      "name": "PARTY5_D1"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5_LINK1",
+      "name": "CSET5_LINK1"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2",
+      "name": "RIGHT2"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_C09",
+      "name": "ASSIGN1_C09"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1",
+      "name": "RIGHT1"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_LINK1",
+      "name": "RIGHT1_LINK1"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT1_LINK2",
+      "name": "RIGHT1_LINK2"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_C08",
+      "name": "ASSIGN1_C08"
+    },
+    {
+      "group": "Time",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_T2",
+      "name": "RIGHT2_T2"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_LINK3",
+      "name": "CSET1_LINK3"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET5_D1",
+      "name": "CSET5_D1"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_D1",
+      "name": "ASSIGN1_D1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY8_C73",
+      "name": "PARTY8_C73"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1_C21",
+      "name": "PAY1_C21"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY5_C52",
+      "name": "PARTY5_C52"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY5_C53",
+      "name": "PARTY5_C53"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY8_C74",
+      "name": "PARTY8_C74"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1_C07",
+      "name": "ASSIGN1_C07"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#RIGHT2_C98",
+      "name": "RIGHT2_C98"
+    },
+    {
+      "group": "Link",
+      "id": "http://www.copyrighthub.org/2014/hk#PAY1_LINK2",
+      "name": "PAY1_LINK2"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY1",
+      "name": "PARTY1"
+    },
+    {
+      "group": "Creation",
+      "id": "http://www.copyrighthub.org/2014/hk#CREATION1",
+      "name": "CREATION1"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY1_D2",
+      "name": "PARTY1_D2"
+    },
+    {
+      "group": "Descriptor",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY1_D1",
+      "name": "PARTY1_D1"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY7",
+      "name": "PARTY7"
+    },
+    {
+      "group": "Party",
+      "id": "http://www.copyrighthub.org/2014/hk#PARTY8",
+      "name": "PARTY8"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_C64",
+      "name": "CSET1_C64"
+    },
+    {
+      "group": "Context",
+      "id": "http://www.copyrighthub.org/2014/hk#ASSIGN1",
+      "name": "ASSIGN1"
+    },
+    {
+      "group": "Category",
+      "id": "http://www.copyrighthub.org/2014/hk#CSET1_C63",
+      "name": "CSET1_C63"
+    }
+  ]
+}
